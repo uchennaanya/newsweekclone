@@ -7,11 +7,15 @@
   outline: none;
 }
 
-/* .top-nav {
+.bg {
+    background-color: #f4f5f6;
+}
 
-  background-color: #f72210;
-  padding: 20px;
-} */
+.skew {
+    transform: skewX(0deg 30deg 0deg 0deg);
+    top: 0;
+}
+
 
 .logo-pic {
   max-width: 30px;
