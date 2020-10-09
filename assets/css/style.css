@@ -8,14 +8,13 @@
 }
 
 .bg {
-    background-color: #f4f5f6;
+  background-color: #f4f5f6;
 }
 
 .skew {
-    transform: skewX(0deg 30deg 0deg 0deg);
-    top: 0;
+  transform: skewX(0deg 30deg 0deg 0deg);
+  top: 0;
 }
-
 
 .logo-pic {
   max-width: 30px;
@@ -49,4 +48,30 @@ p {
 
 #h-top img {
   object-fit: unset;
+}
+
+/* In The Magazine Section */
+.title {
+  color: #000;
+}
+
+svg {
+  color: #f72210;
+  max-width: 200px;
+}
+.icon {
+  display: inline-block;
+  padding: 0.2em 0.5em;
+  font-size: 1.5rem;
+  font-weight: 900;
+  background-color: #f72210;
+}
+
+.footer li {
+ display: inline-block;
+ color: #000;
+}
+
+.footer li a {
+    color: #000;
 }
