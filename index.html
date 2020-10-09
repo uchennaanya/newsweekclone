@@ -1,67 +1,192 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
 
-<head>
-    <meta charset="UTF-8">
-
-
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet" />
-    <link rel="icon" href="assets/img/favicon.ico">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="assets/img/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>News Week</title>
-</head>
+  </head>
 
-<body class="container-fluid p-20 bg-dark text-white border">
+  <body class="container-fluid p-20 bg-dark text-white border">
     <header class="header">
+      <nav id="h-top" class="justify-content-between text-white py-2">
         <div class="top-nav d-flex">
+          <div class="weather-date col-lg-3 py-3 d-none d-lg-block">
             <div>
-                <p>Fri, Oct, 09, 2020</p>
+              <a class="text-white" href="#">
+                <i class="fas fa-cloud-sun-rain"></i><span>30</span
+                ><span>India</span>
+              </a>
             </div>
-            <div><img src="assets/img/logo.png" alt="Logo"></div>
-            <div>
-                <div class="d-flex">
-                    <button type="submit" class="display-5 font-weight-bolder m-0 bg-transparent border-0 text-white d-none d-md-block">LOGIN</button>
-                    <button type="button" class="btn btn-warning font-weight-bolder rounded-pill mx-3">SUBSCRIPTION OFFERS
-                        ></button>
+            <div>Fri, Oct, 09, 2020</div>
+          </div>
+
+          <div class="col-md-3 col-lg-4 col-5 d-flex py-1 logo-pic">
+            <img src="assets/img/logo.png" alt="Logo" />
+          </div>
+          
+            <div class="col-lg-3 col-md-6 col-6 d-flex align-items-center justify-content-end">
+                <i class="fas fa-user fa-md-2x d-md-none"></i>
+                <button type="submit"
+                  class="display-5 font-weight-bolder m-0 bg-transparent border-0 text-white d-none d-md-block">
+                  LOGIN
+                </button>
+                <div>
+                  <button type="button" class="btn btn-warning font-weight-bolder rounded-pill mx-3">
+                    SUBSCRIBE
+                  </button>
                 </div>
-                
-            </div>
+                <i class="bars-icon fas fa-bars d-lg-none fa-2x"></i>
+              </div>
+            </nav>
+      <nav class="row d-none d-lg-block bg-white py-2 medium-nav">
+        <div
+          class="align-items-center border-bottom d-flex flex-row-reverse justify-content-end d-none w-100"
+        >
+          <i class="fas fa-search align-self-center mr-5"></i>
+          <input
+            type="text"
+            placeholder="Search"
+            class="float-right search-bar"
+          />
+          <ul
+            class="navbar nav-bar medium-nav-items list-unstyled m-0 justify-content-between w-100"
+          >
+            <li>
+              <a class="text-nowrap font-weight-bold h6 text-dark m-0" href="#"
+                >U.S</a
+              >
+            </li>
+            <li>
+              <a class="text-nowrap font-weight-bold h6 text-dark m-0" href="#"
+                >World</a
+              >
+            </li>
+            <li>
+              <a class="text-nowrap font-weight-bold h6 text-dark m-0" href="#"
+                >Business</a
+              >
+            </li>
+            <li>
+              <a class="text-nowrap font-weight-bold h6 text-dark m-0" href="#"
+                >Tech & Science</a
+              >
+            </li>
+            <li>
+              <a class="text-nowrap font-weight-bold h6 text-dark m-0" href="#"
+                >Culture</a
+              >
+            </li>
+            <li>
+              <a class="text-nowrap font-weight-bold h6 text-dark m-0" href="#"
+                >News Geek</a
+              >
+            </li>
+            <li>
+              <a class="text-nowrap font-weight-bold h6 text-dark m-0" href="#"
+                >Sports</a
+              >
+            </li>
+            <li>
+              <a class="text-nowrap font-weight-bold h6 text-dark m-0" href="#"
+                >Health</a
+              >
+            </li>
+            <li>
+              <a class="text-nowrap font-weight-bold h6 text-dark m-0" href="#"
+                >The Debate</a
+              >
+            </li>
+            <li>
+              <a class="text-nowrap font-weight-bold h6 text-dark m-0" href="#"
+                >Vantage</a
+              >
+            </li>
+            <li>
+              <a class="text-nowrap font-weight-bold h6 text-dark m-0" href="#"
+                >Weather</a
+              >
+            </li>
+          </ul>
         </div>
+      </nav>
 
-        <nav class="bg-white nav-bar">
-            <ul>
-                <li><a href="#">U.S</a></li>
-                <li><a href="#">World</a></li>
-                <li><a href="#">Business </a></li>
-                <li><a href="#">Tech & Science</a></li>
-                <li><a href="#">Culture</a></li>
-                <li><a href="#">Newsgeek</a></li>
-                <li><a href="#">Sports</a></li>
-                <li><a href="#">Health</a></li>
-                <li><a href="#">The Debate</a></li>
-                <li><a href="#">Vantage</a></li>
-                <li><a href="#">Weather</a></li>
-            </ul>
-            <form action="#">
-                <input type="text" placeholder="Search"> <i class="fa fa-search"></i>
-            </form>
-        </nav>
+      <nav class="row d-none d-lg-block bg-white py-2 medium-nav">
+        <div class="align-items-center border-bottom d-flex W-75">
+          <ul
+            class="navbar medium-nav-items list-unstyled m-0 justify-content-start"
+          >
+            <li>
+              <a
+                class="text-nowrap font-weight-bold h6 px-3 text-dark m-0"
+                href="#"
+                >TRENDING</a
+              >
+            </li>
+            <li>
+              <a
+                class="text-nowrap font-weight-bold h6 px-3 text-dark m-0"
+                href="#"
+                >DONALD TRUMP</a
+              >
+            </li>
+            <li>
+              <a
+                class="text-nowrap font-weight-bold h6 px-3 text-dark m-0"
+                href="#"
+                >JOE BIDEN</a
+              >
+            </li>
+            <li>
+              <a
+                class="text-nowrap font-weight-bold h6 px-3 text-dark m-0"
+                href="#"
+                >CHINA</a
+              >
+            </li>
+            <li>
+              <a
+                class="text-nowrap font-weight-bold h6 px-3 text-dark m-0"
+                href="#"
+                >CORONAVIRUS</a
+              >
+            </li>
+            <li>
+              <a
+                class="text-nowrap font-weight-bold h6 px-3 text-dark m-0"
+                href="#"
+                >2020 ELECTIONS</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
     </header>
-    <main>
-        <div class="container-fluid">
-            <h3>TRENDING</h3>
-            <ul class="nav-bar">
-                <li><a href="#">DONALD TRUMP</a></li>
-                <li><a href="#">JEO BIDEN</a></li>
-                <li><a href="#">STIMULUS PACKAGE</a></li>
-                <li><a href="#">CORONAVIRUS</a></li>
-                <li><a href="#">2020 ELECTION</a></li>
-            </ul>
-        </div>
-    </main>
-</body>
-
+    <!-- <main>
+      <div class="container-fluid">
+        <h3>TRENDING</h3>
+        <ul class="nav-bar">
+          <li><a href="#">DONALD TRUMP</a></li>
+          <li><a href="#">JEO BIDEN</a></li>
+          <li><a href="#">STIMULUS PACKAGE</a></li>
+          <li><a href="#">CORONAVIRUS</a></li>
+          <li><a href="#">2020 ELECTION</a></li>
+        </ul>
+      </div>
+    </main> -->
+  </body>
 </html>
