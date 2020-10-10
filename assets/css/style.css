@@ -18,7 +18,6 @@
 
 .logo-pic {
   max-width: 30px;
-  max-height: 30px;
 }
 
 body {
@@ -92,7 +91,7 @@ svg {
 }
 .icon {
   display: inline-block;
-  padding: 0.2em 0.5em;
+  padding: 0.123em 0.3em;
   font-size: 1.5rem;
   font-weight: 900;
   background-color: #f72210;
@@ -105,4 +104,41 @@ svg {
 
 .footer li a {
   color: #000;
+}
+
+.magazine button {
+  background-color: #f72210;
+  border-radius: 0;
+  padding: 0.1em 0.3rem;
+  margin-top: 10px;
+  font-weight: 700;
+}
+
+.editors-pic-btn figcaption {
+  position: relative;
+  background-color: #ccc;
+  padding: 0.2em 1em;
+  font-weight: 700;
+  top: -32px;
+}
+
+.editors-pic-btn a {
+  text-decoration-color: #f72210;
+  display: inline-block;
+  margin-top: -40px;
+}
+
+.thumbnail-large {
+  width: 100%;
+  height: 300px;
+}
+
+.aside img {
+  width: 70%;
+  margin-right: 5px;
+}
+
+aside-txt {
+  width: 100%;
+  border: 1px solid red;
 }
