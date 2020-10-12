@@ -31,6 +31,10 @@ body {
   text-decoration: none;
 }
 
+nav-bar li {
+  border: 1px solid;
+}
+
 .nav-bar a:hover {
   color: red;
 }
@@ -42,7 +46,7 @@ p {
 img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  /* object-fit: cover; */
 }
 
 #h-top {
@@ -115,6 +119,16 @@ svg {
   font-weight: 700;
 }
 
+.magazine-img {
+  width: 100%;
+  height: 250px;
+}
+
+.cover-img {
+  width: 100%;
+  height: 350px;
+}
+
 .editors-pic-btn figcaption {
   position: relative;
   background-color: #ccc;
@@ -136,12 +150,13 @@ svg {
 
 .aside img {
   width: 70%;
-  margin-right: 5px;
+  max-height: 100px;
 }
 
 .social i {
   margin: 0 5px 0 0;
   padding: 5px;
+  font-size: 24px;
 }
 
 .font-size {
@@ -168,7 +183,6 @@ svg {
   font-size: 1.2rem;
 }
 
-
 .has-search .form-control-feedback {
   position: absolute;
   z-index: 2;
@@ -181,4 +195,9 @@ svg {
   pointer-events: none;
   color: dimgrey;
   font-size: 1.5rem;
+}
+
+.more-story img {
+  width: 30%;
+  max-height: 150px;
 }
