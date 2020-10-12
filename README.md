@@ -2,7 +2,7 @@
 
 # THE NEW WEB WEBSITE
 
-This is the clone of the News Week web site.
+This is the clone of the News Week web site. It has been built with Bootstrap 4. We used very few css codes.
 ![screenshot](assets/img/newweb-screenshot.png)
 
 ## The following are some the features of this project:
@@ -18,6 +18,8 @@ This is the clone of the News Week web site.
 
 - HTML5
 - CSS3
+- Bootstrap 4
+- Font-awesome icons
 
 ## Getting Started
 
@@ -31,11 +33,11 @@ For one to get started, just clone the repository and open index.html file in yo
 - Twitter:[@matinsanya19](https://twitter.com/martinsanya19)
 - Linkedin: [Uchenna Martin Anya](https://www.linkedin.com/in/uchenna-anya/)
 
-**Iris Enaelle Kineza**
+👤 **Mohammed Naqhid**
 
-- Github: [KinezaEnaelle](https://github.com/KinezaEnaelle)
-- Twitter: [@IKineza](https://twitter.com/ikineza)
-- Linkedin: [Iris Enaelle Kineza](https://www.linkedin.com/in/iris-enaelle-kineza-25a676187/)
+- GitHub: [@Naqhid](https://github.com/Naqhid)s
+- Twitter: [Naqhid](https://twitter.com/naqhid)
+- LinkedIn: [Naqhid](https://www.linkedin.com/in/mohammed-naqhid-ab3080189/)
 
 ## Contributions
 
