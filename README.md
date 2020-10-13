@@ -45,7 +45,7 @@ Feature requests and issues are most welcome.
 
 ## Live Demo
 
-[Live Demo](https://rawcdn.githack.com/uchennaanya/newsweekclone/fbc3062f2f192e3d83bfeca7a413d94de06fcf23/index.html)
+[Live Demo](https://dazzling-elion-6ca3a7.netlify.app/)
 
 ## Show your support
 

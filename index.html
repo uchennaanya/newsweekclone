@@ -14,7 +14,7 @@
 </head>
 
 <body class="container-fluid pr-4 pl-4 bg">
-    <header class="header d-sm-block">
+    <header class="z-index d-sm-block fixed-top">
         <nav id="h-top" class="text-white py-2">
             <div class="top-nav d-flex justify-content-start">
                 <div class="weather-date col-lg-3 py-3 d-none d-lg-block">
@@ -39,7 +39,7 @@
                     </button>
                     <div>
                         <button type="button"
-                            class="col-11 btn p-0 btn-warning font-weight-bolder rounded-pill mx-3 display-6">
+                            class="col-11 btn p-0 btn-warning font-weight-bolder rounded-pill mx-3 display-5">
                             SUBSCRIBE >
                         </button>
                     </div>
@@ -49,7 +49,7 @@
         </nav>
     </header>
     <div class="d-none d-lg-block bg-white py-2 medium-nav">
-        <div class="skew">
+        <div class="wrapper">
             <div class="align-items-center border-bottom d-flex flex-row-reverse justify-content-end d-none w-100">
                 <div class="form-group has-search">
                     <span class="fa fa-search form-control-feedback display-1"></span>
@@ -1349,6 +1349,7 @@
                     </div>
                 </div>
             </div>
+
             <div class="col-lg-4 mt-md-5 my-5 m-lg-0 ">
                 <h6 class="text-danger">NEWSLETTER</h6>
                 <div class="d-flex h-100 border">
@@ -1362,9 +1363,8 @@
                             their day with
                             the Starting 5.
                         </p>
-                        <input class="border p-1 my-2 w-100" type="text" placeholder="Email Address">
-                        <button type="submit"
-                            class="btn btn-danger border-0 bg-red text-white border-radius-0">SUBSCRIBE
+                        <input class="border p-1 my-2 w-50" type="text" placeholder="Email Address">
+                        <button type="submit" class="btn btn-danger border-0 bg-red text-white my-btn">SUBSCRIBE
                             &gt;</button>
                     </div>
                 </div>
@@ -1377,7 +1377,7 @@
     <footer>
         <section class="row d-flex justify-content-between pl-4 pr-4 pb-2 border-top mt-5">
 
-            <div class="col-md-6 ">
+            <div class="col-md-6">
 
                 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
                     xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 395.6 60"
@@ -1388,7 +1388,7 @@
                         </path>
                     </g>
                 </svg>
-                <span class="copy-right">&copy 2020 NEWSWEEK DIGITAL LLC</span>
+                <span class="copy-right mb-0">&copy 2020 NEWSWEEK DIGITAL LLC</span>
             </div>
 
             <div class="col-md-2justify-content-md-end row m-0 mb-3 text-dark social">
