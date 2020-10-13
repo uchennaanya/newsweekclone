@@ -3,20 +3,18 @@
 
 <head>
     <meta charset="UTF-8" />
-
-    <link rel="stylesheet" href="assets/css/style.css" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet" />
     <link rel="icon" href="assets/img/favicon.ico" />
+    <link rel="stylesheet" href="assets/css/style.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>News Week</title>
 </head>
 
 <body class="container-fluid pr-4 pl-4 bg">
-    <header class="header">
+    <header class="header d-sm-block">
         <nav id="h-top" class="text-white py-2">
             <div class="top-nav d-flex justify-content-start">
                 <div class="weather-date col-lg-3 py-3 d-none d-lg-block">
@@ -28,75 +26,75 @@
                     <div>Fri, Oct, 09, 2020</div>
                 </div>
 
-                <div class="col-md-3 col-lg-4 col-5 d-flex py-1 logo-pic">
+                <div class=" col-md-3 col-lg-4 col-5 py-1">
                     <img src="assets/img/logo.png" alt="Logo" />
                 </div>
 
-                <div class="col-lg-5 col-md-6 col-6 d-flex align-items-center justify-content-end p-0 float-right">
+                <div
+                    class="col-lg-5 col-md-6 col-6 d-flex align-items-center justify-content-end ml-auto p-0 float-right">
                     <i class="fas fa-user fa-md-2x d-md-none"></i>
                     <button type="submit"
                         class="display-5 font-weight-bolder m-0 bg-transparent border-0 text-white d-none d-md-block">
                         LOGIN
                     </button>
                     <div>
-                        <button type="button" class="btn btn-warning font-weight-bolder rounded-pill mx-3">
+                        <button type="button"
+                            class="col-11 btn p-0 btn-warning font-weight-bolder rounded-pill mx-3 display-6">
                             SUBSCRIBE >
                         </button>
                     </div>
-                    <i class="bars-icon fas fa-bars d-lg-none fa-2x"></i>
+                    <i class="bars-icon ml-2 fas fa-bars d-lg-none"></i>
                 </div>
             </div>
-
         </nav>
-        <nav class="d-none d-lg-block bg-white py-2 medium-nav">
-            <div class="skew">
-                <div class="align-items-center border-bottom d-flex flex-row-reverse justify-content-end d-none w-100">
-                    <div class="form-group has-search">
-                        <span class="fa fa-search form-control-feedback display-1"></span>
-                        <input type="text" class="form-control" placeholder="Search">
-                    </div>
-
-                    <ul class="navbar nav-bar medium-nav-items list-unstyled m-0 justify-content-between w-100">
-                        <li class="border-right pr-3 m-0">
-                            <a class="text-nowrap font-weight-bold h6 text-dark m-0" href="#">U.S</a>
-                        </li>
-                        <li class="border-right pr-3 m-0">
-                            <a class="text-nowrap font-weight-bold h6 text-dark m-0" href="#">World</a>
-                        </li>
-                        <li class="border-right pr-3 m-0">
-                            <a class="text-nowrap font-weight-bold h6 text-dark m-0" href="#">Business</a>
-                        </li>
-                        <li class="border-right pr-3 m-0">
-                            <a class="text-nowrap font-weight-bold h6 text-dark m-0" href="#">Tech & Science</a>
-                        </li>
-                        <li class="border-right pr-3 m-0">
-                            <a class="text-nowrap font-weight-bold h6 text-dark m-0" href="#">Culture</a>
-                        </li>
-                        <li class="border-right pr-3 m-0">
-                            <a class="text-nowrap font-weight-bold h6 text-dark m-0" href="#">News Geek</a>
-                        </li>
-                        <li class="border-right pr-3 m-0">
-                            <a class="text-nowrap font-weight-bold h6 text-dark m-0" href="#">Sports</a>
-                        </li>
-                        <li class="border-right pr-3 m-0">
-                            <a class="text-nowrap font-weight-bold h6 text-dark m-0" href="#">Health</a>
-                        </li>
-                        <li class="border-right pr-3 m-0">
-                            <a class="text-nowrap font-weight-bold h6 text-dark m-0" href="#">The Debate</a>
-                        </li>
-                        <li class="border-right pr-3 m-0">
-                            <a class="text-nowrap font-weight-bold h6 text-dark m-0" href="#">Vantage</a>
-                        </li>
-                        <li class="border-right pr-3 m-0">
-                            <a class="text-nowrap font-weight-bold h6 text-dark m-0" href="#">Weather</a>
-                        </li>
-                    </ul>
+    </header>
+    <div class="d-none d-lg-block bg-white py-2 medium-nav">
+        <div class="skew">
+            <div class="align-items-center border-bottom d-flex flex-row-reverse justify-content-end d-none w-100">
+                <div class="form-group has-search">
+                    <span class="fa fa-search form-control-feedback display-1"></span>
+                    <input type="text" class="form-control" placeholder="Search">
                 </div>
+
+                <ul class="navbar nav-bar medium-nav-items list-unstyled m-0 justify-content-between w-100">
+                    <li class="border-right pr-3 m-0">
+                        <a class="text-nowrap font-weight-bold h6 text-dark m-0" href="#">U.S</a>
+                    </li>
+                    <li class="border-right pr-3 m-0">
+                        <a class="text-nowrap font-weight-bold h6 text-dark m-0" href="#">World</a>
+                    </li>
+                    <li class="border-right pr-3 m-0">
+                        <a class="text-nowrap font-weight-bold h6 text-dark m-0" href="#">Business</a>
+                    </li>
+                    <li class="border-right pr-3 m-0">
+                        <a class="text-nowrap font-weight-bold h6 text-dark m-0" href="#">Tech & Science</a>
+                    </li>
+                    <li class="border-right pr-3 m-0">
+                        <a class="text-nowrap font-weight-bold h6 text-dark m-0" href="#">Culture</a>
+                    </li>
+                    <li class="border-right pr-3 m-0">
+                        <a class="text-nowrap font-weight-bold h6 text-dark m-0" href="#">News Geek</a>
+                    </li>
+                    <li class="border-right pr-3 m-0">
+                        <a class="text-nowrap font-weight-bold h6 text-dark m-0" href="#">Sports</a>
+                    </li>
+                    <li class="border-right pr-3 m-0">
+                        <a class="text-nowrap font-weight-bold h6 text-dark m-0" href="#">Health</a>
+                    </li>
+                    <li class="border-right pr-3 m-0">
+                        <a class="text-nowrap font-weight-bold h6 text-dark m-0" href="#">The Debate</a>
+                    </li>
+                    <li class="border-right pr-3 m-0">
+                        <a class="text-nowrap font-weight-bold h6 text-dark m-0" href="#">Vantage</a>
+                    </li>
+                    <li class="border-right pr-3 m-0">
+                        <a class="text-nowrap font-weight-bold h6 text-dark m-0" href="#">Weather</a>
+                    </li>
+                </ul>
             </div>
+        </div>
 
-        </nav>
-
-        <nav class="d-none d-lg-block bg-white py-2 medium-nav">
+        <div class="d-none d-lg-block bg-white py-2 medium-nav">
             <div class="align-items-center border-bottom d-flex W-75">
                 <ul class="navbar medium-nav-items list-unstyled m-0 justify-content-start">
                     <li>
@@ -119,9 +117,8 @@
                     </li>
                 </ul>
             </div>
-        </nav>
-    </header>
-
+        </div>
+    </div>
 
     <!-- FIrst section -->
     <main class="bg-white text-dark">
@@ -170,12 +167,15 @@
                             U.S.
                         </figcaption>
                     </figure>
-                    <a class="mb-2 text-dark" href="#">Microsoft's New Permanent 'Remote Work Policy' Could Devastate
+                    <a class="mb-2 text-dark" href="#">Microsoft's New Permanent 'Remote Work Policy' Could
+                        Devastate
                         Host
                         Communi</a>
                     <p class="text-dark h6">
-                        Microsoft's decision to allow employees to work remotely on a permanent basis is part of a trend
-                        that could lead to widespread economic changes. The areas surrounding corporate headquarters may
+                        Microsoft's decision to allow employees to work remotely on a permanent basis is part of a
+                        trend
+                        that could lead to widespread economic changes. The areas surrounding corporate headquarters
+                        may
                         see business closures and job losses.
                     </p>
                 </div>
@@ -188,12 +188,15 @@
                             U.S.
                         </figcaption>
                     </figure>
-                    <a class="mb-2 text-dark" href="#">Microsoft's New Permanent 'Remote Work Policy' Could Devastate
+                    <a class="mb-2 text-dark" href="#">Microsoft's New Permanent 'Remote Work Policy' Could
+                        Devastate
                         Host
                         Communi</a>
                     <p class="text-dark h6">
-                        Microsoft's decision to allow employees to work remotely on a permanent basis is part of a trend
-                        that could lead to widespread economic changes. The areas surrounding corporate headquarters may
+                        Microsoft's decision to allow employees to work remotely on a permanent basis is part of a
+                        trend
+                        that could lead to widespread economic changes. The areas surrounding corporate headquarters
+                        may
                         see business closures and job losses.
                     </p>
                 </div>
@@ -206,12 +209,15 @@
                             U.S.
                         </figcaption>
                     </figure>
-                    <a class="mb-2 text-dark" href="#">Microsoft's New Permanent 'Remote Work Policy' Could Devastate
+                    <a class="mb-2 text-dark" href="#">Microsoft's New Permanent 'Remote Work Policy' Could
+                        Devastate
                         Host
                         Communi</a>
                     <p class="text-dark h6">
-                        Microsoft's decision to allow employees to work remotely on a permanent basis is part of a trend
-                        that could lead to widespread economic changes. The areas surrounding corporate headquarters may
+                        Microsoft's decision to allow employees to work remotely on a permanent basis is part of a
+                        trend
+                        that could lead to widespread economic changes. The areas surrounding corporate headquarters
+                        may
                         see business closures and job losses.
                     </p>
                 </div>
@@ -224,12 +230,15 @@
                             U.S.
                         </figcaption>
                     </figure>
-                    <a class="mb-2 text-dark" href="#">Microsoft's New Permanent 'Remote Work Policy' Could Devastate
+                    <a class="mb-2 text-dark" href="#">Microsoft's New Permanent 'Remote Work Policy' Could
+                        Devastate
                         Host
                         Communi</a>
                     <p class="text-dark h6">
-                        Microsoft's decision to allow employees to work remotely on a permanent basis is part of a trend
-                        that could lead to widespread economic changes. The areas surrounding corporate headquarters may
+                        Microsoft's decision to allow employees to work remotely on a permanent basis is part of a
+                        trend
+                        that could lead to widespread economic changes. The areas surrounding corporate headquarters
+                        may
                         see business closures and job losses.
                     </p>
                 </div>
@@ -242,12 +251,15 @@
                             U.S.
                         </figcaption>
                     </figure>
-                    <a class="mb-2 text-dark" href="#">Microsoft's New Permanent 'Remote Work Policy' Could Devastate
+                    <a class="mb-2 text-dark" href="#">Microsoft's New Permanent 'Remote Work Policy' Could
+                        Devastate
                         Host
                         Communi</a>
                     <p class="text-dark h6">
-                        Microsoft's decision to allow employees to work remotely on a permanent basis is part of a trend
-                        that could lead to widespread economic changes. The areas surrounding corporate headquarters may
+                        Microsoft's decision to allow employees to work remotely on a permanent basis is part of a
+                        trend
+                        that could lead to widespread economic changes. The areas surrounding corporate headquarters
+                        may
                         see business closures and job losses.
                     </p>
                 </div>
@@ -274,7 +286,8 @@
                             Amounts of
                             Cash</a>
                         <p>
-                            The massive cash hauls in the last three months come as waning poll numbers for President
+                            The massive cash hauls in the last three months come as waning poll numbers for
+                            President
                             Trump and Republicans, as well as the political battle over the Supreme Court, have
                             Democrats growing increasingly confident they can retake the upper chamber.
                         </p>
@@ -375,7 +388,8 @@
 
                     <div class=" border-top py-3">
                         <img class="col-3 p-0 mr-3 float-left" src="assets/img/ms.jpg" alt="show-image"> <a
-                            class="mb-4 h6 text-dark" href="#">Trump Has Accused Numerous Political Rivals of Crimes,
+                            class="mb-4 h6 text-dark" href="#">Trump Has Accused Numerous Political Rivals of
+                            Crimes,
                             Now
                             Including Biden
                             Against COVID-19</a>
@@ -388,7 +402,8 @@
 
                     <div class=" border-top py-3">
                         <img class="col-3 p-0 mr-3 float-left" src="assets/img/ms.jpg" alt="show-image"> <a
-                            class="mb-4 h6 text-dark" href="#">Trump Has Accused Numerous Political Rivals of Crimes,
+                            class="mb-4 h6 text-dark" href="#">Trump Has Accused Numerous Political Rivals of
+                            Crimes,
                             Now
                             Including Biden
                             Against COVID-19</a>
@@ -400,7 +415,8 @@
                     </div>
                     <div class=" border-top py-3">
                         <img class="col-3 p-0 mr-3 float-left" src="assets/img/ms.jpg" alt="show-image"> <a
-                            class="mb-4 h6 text-dark" href="#">Trump Has Accused Numerous Political Rivals of Crimes,
+                            class="mb-4 h6 text-dark" href="#">Trump Has Accused Numerous Political Rivals of
+                            Crimes,
                             Now
                             Including Biden
                             Against COVID-19</a>
@@ -412,7 +428,8 @@
                     </div>
                     <div class=" border-top py-3">
                         <img class="col-3 p-0 mr-3 float-left" src="assets/img/ms.jpg" alt="show-image">
-                        <a class="mb-4 h6 text-dark" href="#">Trump Has Accused Numerous Political Rivals of Crimes, Now
+                        <a class="mb-4 h6 text-dark" href="#">Trump Has Accused Numerous Political Rivals of Crimes,
+                            Now
                             Including
                             Biden
                             Against COVID-19</a>
@@ -424,7 +441,8 @@
                     </div>
                     <div class=" border-top py-3">
                         <img class="col-3 p-0 mr-3 float-left" src="assets/img/ms.jpg" alt="show-image">
-                        <a class="mb-4 h6 text-dark" href="#">Trump Has Accused Numerous Political Rivals of Crimes, Now
+                        <a class="mb-4 h6 text-dark" href="#">Trump Has Accused Numerous Political Rivals of Crimes,
+                            Now
                             Including
                             Biden
                             Against COVID-19</a>
@@ -436,7 +454,8 @@
                     </div>
                     <div class="border-top py-3">
                         <img class="col-3 p-0 mr-3 float-left" src="assets/img/ms.jpg" alt="show-image">
-                        <a class="mb-4 h6 text-dark" href="#">Trump Has Accused Numerous Political Rivals of Crimes, Now
+                        <a class="mb-4 h6 text-dark" href="#">Trump Has Accused Numerous Political Rivals of Crimes,
+                            Now
                             Including
                             Biden
                             Against COVID-19</a>
@@ -448,7 +467,8 @@
                     </div>
                     <div class=" border-top py-3">
                         <img class="col-3 p-0 mr-3 float-left" src="assets/img/ms.jpg" alt="show-image">
-                        <a class="mb-4 h6 text-dark" href="#">Trump Has Accused Numerous Political Rivals of Crimes, Now
+                        <a class="mb-4 h6 text-dark" href="#">Trump Has Accused Numerous Political Rivals of Crimes,
+                            Now
                             Including
                             Biden
                             Against COVID-19</a>
@@ -460,7 +480,8 @@
                     </div>
                     <div class=" border-top py-3">
                         <img class="col-3 p-0 mr-3 float-left" src="assets/img/ms.jpg" alt="show-image">
-                        <a class="mb-4 h6 text-dark" href="#">Trump Has Accused Numerous Political Rivals of Crimes, Now
+                        <a class="mb-4 h6 text-dark" href="#">Trump Has Accused Numerous Political Rivals of Crimes,
+                            Now
                             Including
                             Biden
                             Against COVID-19</a>
@@ -472,7 +493,8 @@
                     </div>
                     <div class=" border-top py-3">
                         <img class="col-3 p-0 mr-3 float-left" src="assets/img/ms.jpg" alt="show-image">
-                        <a class="mb-4 h6 text-dark" href="#">Trump Has Accused Numerous Political Rivals of Crimes, Now
+                        <a class="mb-4 h6 text-dark" href="#">Trump Has Accused Numerous Political Rivals of Crimes,
+                            Now
                             Including
                             Biden
                             Against COVID-19</a>
@@ -484,7 +506,8 @@
                     </div>
                     <div class=" border-top py-3">
                         <img class="col-3 p-0 mr-3 float-left" src="assets/img/ms.jpg" alt="show-image">
-                        <a class="mb-4 h6 text-dark" href="#">Trump Has Accused Numerous Political Rivals of Crimes, Now
+                        <a class="mb-4 h6 text-dark" href="#">Trump Has Accused Numerous Political Rivals of Crimes,
+                            Now
                             Including
                             Biden
                             Against COVID-19</a>
@@ -496,7 +519,8 @@
                     </div>
                     <div class=" border-top py-3">
                         <img class="col-3 p-0 mr-3 float-left" src="assets/img/ms.jpg" alt="show-image">
-                        <a class="mb-4 h6 text-dark" href="#">Trump Has Accused Numerous Political Rivals of Crimes, Now
+                        <a class="mb-4 h6 text-dark" href="#">Trump Has Accused Numerous Political Rivals of Crimes,
+                            Now
                             Including
                             Biden
                             Against COVID-19</a>
@@ -508,7 +532,8 @@
                     </div>
                     <div class="border-top py-3">
                         <img class="col-3 p-0 mr-3 float-left" src="assets/img/ms.jpg" alt="show-image">
-                        <a class="mb-4 h6 text-dark" href="#">Trump Has Accused Numerous Political Rivals of Crimes, Now
+                        <a class="mb-4 h6 text-dark" href="#">Trump Has Accused Numerous Political Rivals of Crimes,
+                            Now
                             Including
                             Biden
                             Against COVID-19</a>
@@ -550,7 +575,8 @@
                             </div>
                         </div>
                         <div class="col-10 ml-2  p-0 row flex-column">
-                            <h5><a href="#" class="mb-1 responsive-font-size text-dark display-bold href=">The Time Is
+                            <h5><a href="#" class="mb-1 responsive-font-size text-dark display-bold href=">The Time
+                                    Is
                                     Now to
                                     Recommit to a National
                                     Assault Weapon Ban
@@ -860,13 +886,15 @@
                     </figure>
 
                     <h4>
-                        <a class="text-dark editors-pic-btn" href="#">Biden Should Promise to Pack the Supreme Court to
+                        <a class="text-dark editors-pic-btn" href="#">Biden Should Promise to Pack the Supreme Court
+                            to
                             Save It From
                             Partisan
                             War
                         </a>
                     </h4>
-                    <p class="text-dark">The near-$150 billion premium came as demands for key vaccines and medications
+                    <p class="text-dark">The near-$150 billion premium came as demands for key vaccines and
+                        medications
                         increased,
                         and
                         health services across the world were left feeling the strain.
@@ -881,11 +909,13 @@
                         </figcaption>
                     </figure>
 
-                    <h4> <a class="text-dark editors-pic-btn" href="#">Biden Should Promise to Pack the Supreme Court to
+                    <h4> <a class="text-dark editors-pic-btn" href="#">Biden Should Promise to Pack the Supreme
+                            Court to
                             Save It From
                             Partisan
                             War</a> </h4>
-                    <p class="text-dark">The near-$150 billion premium came as demands for key vaccines and medications
+                    <p class="text-dark">The near-$150 billion premium came as demands for key vaccines and
+                        medications
                         increased,
                         and
                         health services across the world were left feeling the strain.</p>
@@ -899,11 +929,13 @@
                         </figcaption>
                     </figure>
 
-                    <h4> <a class="text-dark editors-pic-btn" href="#">Biden Should Promise to Pack the Supreme Court to
+                    <h4> <a class="text-dark editors-pic-btn" href="#">Biden Should Promise to Pack the Supreme
+                            Court to
                             Save It From
                             Partisan
                             War</a> </h4>
-                    <p class="text-dark">The near-$150 billion premium came as demands for key vaccines and medications
+                    <p class="text-dark">The near-$150 billion premium came as demands for key vaccines and
+                        medications
                         increased,
                         and
                         health services across the world were left feeling the strain.</p>
@@ -917,11 +949,13 @@
                         </figcaption>
                     </figure>
 
-                    <h4> <a class="text-dark editors-pic-btn" href="#">Biden Should Promise to Pack the Supreme Court to
+                    <h4> <a class="text-dark editors-pic-btn" href="#">Biden Should Promise to Pack the Supreme
+                            Court to
                             Save It From
                             Partisan
                             War</a> </h4>
-                    <p class="text-dark">The near-$150 billion premium came as demands for key vaccines and medications
+                    <p class="text-dark">The near-$150 billion premium came as demands for key vaccines and
+                        medications
                         increased,
                         and
                         health services across the world were left feeling the strain.</p>
@@ -935,11 +969,13 @@
                         </figcaption>
                     </figure>
 
-                    <h4> <a class="text-dark editors-pic-btn" href="#">Biden Should Promise to Pack the Supreme Court to
+                    <h4> <a class="text-dark editors-pic-btn" href="#">Biden Should Promise to Pack the Supreme
+                            Court to
                             Save It From
                             Partisan
                             War</a> </h4>
-                    <p class="text-dark">The near-$150 billion premium came as demands for key vaccines and medications
+                    <p class="text-dark">The near-$150 billion premium came as demands for key vaccines and
+                        medications
                         increased,
                         and
                         health services across the world were left feeling the strain.</p>
@@ -953,11 +989,13 @@
                         </figcaption>
                     </figure>
 
-                    <h4> <a class="text-dark editors-pic-btn" href="#">Biden Should Promise to Pack the Supreme Court to
+                    <h4> <a class="text-dark editors-pic-btn" href="#">Biden Should Promise to Pack the Supreme
+                            Court to
                             Save It From
                             Partisan
                             War</a> </h4>
-                    <p class="text-dark">The near-$150 billion premium came as demands for key vaccines and medications
+                    <p class="text-dark">The near-$150 billion premium came as demands for key vaccines and
+                        medications
                         increased,
                         and
                         health services across the world were left feeling the strain.</p>
@@ -971,11 +1009,13 @@
                         </figcaption>
                     </figure>
 
-                    <h4> <a class="text-dark editors-pic-btn" href="#">Biden Should Promise to Pack the Supreme Court to
+                    <h4> <a class="text-dark editors-pic-btn" href="#">Biden Should Promise to Pack the Supreme
+                            Court to
                             Save It From
                             Partisan
                             War</a> </h4>
-                    <p class="text-dark">The near-$150 billion premium came as demands for key vaccines and medications
+                    <p class="text-dark">The near-$150 billion premium came as demands for key vaccines and
+                        medications
                         increased,
                         and
                         health services across the world were left feeling the strain.</p>
@@ -989,11 +1029,13 @@
                         </figcaption>
                     </figure>
 
-                    <h4> <a class="text-dark editors-pic-btn" href="#">Biden Should Promise to Pack the Supreme Court to
+                    <h4> <a class="text-dark editors-pic-btn" href="#">Biden Should Promise to Pack the Supreme
+                            Court to
                             Save It From
                             Partisan
                             War</a> </h4>
-                    <p class="text-dark">The near-$150 billion premium came as demands for key vaccines and medications
+                    <p class="text-dark">The near-$150 billion premium came as demands for key vaccines and
+                        medications
                         increased,
                         and
                         health services across the world were left feeling the strain.</p>
@@ -1007,28 +1049,26 @@
             <div class="row">
                 <div class="col-md-4">
                     <figure>
-                        <img src="assets/img/brian-kilmeade.jpg" alt="">
-                        <figcaption>
+                        <img src="assets/img/brian-kilmeade.jpg" alt="Brain's Image">
 
-                        </figcaption>
-                        <h5><a href="#" class="text-dark display-5">Fox News Host Says Trump 'Needs' Virtual Debate</a>
+                        <h5><a href="#" class="text-dark display-5">Fox News Host Says Trump 'Needs' Virtual
+                                Debate</a>
                         </h5>
                     </figure>
                 </div>
                 <div class="col-md-4">
                     <figure>
-                        <img src="assets/img/brian-kilmeade.jpg" alt="">
-                        <figcaption>
+                        <img src="assets/img/brian-kilmeade.jpg" alt="Brain's Image">
 
-                        </figcaption>
-                        <h5><a href="#" class="text-dark display-5">Fox News Host Says Trump 'Needs' Virtual Debate</a>
+                        <h5><a href="#" class="text-dark display-5">Fox News Host Says Trump 'Needs' Virtual
+                                Debate</a>
                         </h5>
                     </figure>
                 </div>
                 <div class="col-md-4 ">
                     <div class="d-flex">
                         <div class="aside">
-                            <img src="assets/img/louisiana.jpg" alt="liuus">
+                            <img src="assets/img/louisiana.jpg" alt="Louisiana's Image">
                         </div>
                         <div class="text-dark flex-grow-1 aside-txt">Hurricane Delta, Louisiana Landfall Risks
                             'Significant Flash
@@ -1037,14 +1077,16 @@
                     </div>
                     <hr>
                     <div class="d-flex justify-content-around">
-                        <div class="aside"><img src="assets/img/louisiana.jpg" alt="liuus"></div>
-                        <div class="text-dark">Hurricane Delta, Louisiana Landfall Risks 'Significant Flash Flooding'
+                        <div class="aside"><img src="assets/img/louisiana.jpg" alt="Louisiana's Image"></div>
+                        <div class="text-dark">Hurricane Delta, Louisiana Landfall Risks 'Significant Flash
+                            Flooding'
                         </div>
                     </div>
                     <hr>
                     <div class="d-flex justify-content-around">
-                        <div class="aside"><img src="assets/img/louisiana.jpg" alt="liuus"></div>
-                        <div class="text-dark">Hurricane Delta, Louisiana Landfall Risks 'Significant Flash Flooding'
+                        <div class="aside"><img src="assets/img/louisiana.jpg" alt="Louisiana's Image"></div>
+                        <div class="text-dark">Hurricane Delta, Louisiana Landfall Risks 'Significant Flash
+                            Flooding'
                         </div>
                     </div>
                 </div>
@@ -1056,40 +1098,41 @@
             <div class="row">
                 <div class="col-md-4">
                     <figure>
-                        <img src="assets/img/brian-kilmeade.jpg" alt="">
-                        <figcaption>
+                        <img src="assets/img/brian-kilmeade.jpg" alt="Brain's Image">
 
-                        </figcaption>
-                        <h5><a href="#" class="text-dark display-5">Fox News Host Says Trump 'Needs' Virtual Debate</a>
+                        <h5><a href="#" class="text-dark display-5">Fox News Host Says Trump 'Needs' Virtual
+                                Debate</a>
                         </h5>
                     </figure>
                 </div>
                 <div class="col-md-4">
                     <figure>
-                        <img src="assets/img/brian-kilmeade.jpg" alt="">
-                        <figcaption>
+                        <img src="assets/img/brian-kilmeade.jpg" alt="Brain's Image">
 
-                        </figcaption>
-                        <h5><a href="#" class="text-dark display-5">Fox News Host Says Trump 'Needs' Virtual Debate</a>
+                        <h5><a href="#" class="text-dark display-5">Fox News Host Says Trump 'Needs' Virtual
+                                Debate</a>
                         </h5>
                     </figure>
                 </div>
                 <div class="col-md-4">
                     <div class="d-flex justify-content-around">
-                        <div class="aside"><img src="assets/img/louisiana.jpg" alt="liuus"></div>
-                        <div class="text-dark">Hurricane Delta, Louisiana Landfall Risks 'Significant Flash Flooding'
+                        <div class="aside"><img src="assets/img/louisiana.jpg" alt="Louisiana's Image"></div>
+                        <div class="text-dark">Hurricane Delta, Louisiana Landfall Risks 'Significant Flash
+                            Flooding'
                         </div>
                     </div>
                     <hr>
                     <div class="d-flex justify-content-around">
-                        <div class="aside"><img src="assets/img/louisiana.jpg" alt="liuus"></div>
-                        <div class="text-dark">Hurricane Delta, Louisiana Landfall Risks 'Significant Flash Flooding'
+                        <div class="aside"><img src="assets/img/louisiana.jpg" alt="Louisiana's Image"></div>
+                        <div class="text-dark">Hurricane Delta, Louisiana Landfall Risks 'Significant Flash
+                            Flooding'
                         </div>
                     </div>
                     <hr>
                     <div class="d-flex justify-content-around">
-                        <div class="aside"><img src="assets/img/louisiana.jpg" alt="liuus"></div>
-                        <div class="text-dark">Hurricane Delta, Louisiana Landfall Risks 'Significant Flash Flooding'
+                        <div class="aside"><img src="assets/img/louisiana.jpg" alt="Louisiana's Image"></div>
+                        <div class="text-dark">Hurricane Delta, Louisiana Landfall Risks 'Significant Flash
+                            Flooding'
                         </div>
                     </div>
                 </div>
@@ -1101,40 +1144,41 @@
             <div class="row">
                 <div class="col-md-4">
                     <figure>
-                        <img src="assets/img/brian-kilmeade.jpg" alt="">
-                        <figcaption>
+                        <img src="assets/img/brian-kilmeade.jpg" alt="Brain's Image">
 
-                        </figcaption>
-                        <h5><a href="#" class="text-dark display-5">Fox News Host Says Trump 'Needs' Virtual Debate</a>
+                        <h5><a href="#" class="text-dark display-5">Fox News Host Says Trump 'Needs' Virtual
+                                Debate</a>
                         </h5>
                     </figure>
                 </div>
                 <div class="col-md-4">
                     <figure>
-                        <img src="assets/img/brian-kilmeade.jpg" alt="">
-                        <figcaption>
+                        <img src="assets/img/brian-kilmeade.jpg" alt="Brain's Image">
 
-                        </figcaption>
-                        <h5><a href="#" class="text-dark display-5">Fox News Host Says Trump 'Needs' Virtual Debate</a>
+                        <h5><a href="#" class="text-dark display-5">Fox News Host Says Trump 'Needs' Virtual
+                                Debate</a>
                         </h5>
                     </figure>
                 </div>
                 <div class="col-md-4">
                     <div class="d-flex justify-content-around">
                         <div class="aside"><img src="assets/img/louisiana.jpg" alt="liuus"></div>
-                        <div class="text-dark">Hurricane Delta, Louisiana Landfall Risks 'Significant Flash Flooding'
+                        <div class="text-dark">Hurricane Delta, Louisiana Landfall Risks 'Significant Flash
+                            Flooding'
                         </div>
                     </div>
                     <hr>
                     <div class="d-flex justify-content-around">
-                        <div class="aside"><img src="assets/img/louisiana.jpg" alt="liuus"></div>
-                        <div class="text-dark">Hurricane Delta, Louisiana Landfall Risks 'Significant Flash Flooding'
+                        <div class="aside"><img src="assets/img/louisiana.jpg" alt="Louisiana image"></div>
+                        <div class="text-dark">Hurricane Delta, Louisiana Landfall Risks 'Significant Flash
+                            Flooding'
                         </div>
                     </div>
                     <hr>
                     <div class="d-flex justify-content-around">
-                        <div class="aside"><img src="assets/img/louisiana.jpg" alt="liuus"></div>
-                        <div class="text-dark">Hurricane Delta, Louisiana Landfall Risks 'Significant Flash Flooding'
+                        <div class="aside"><img src="assets/img/louisiana.jpg" alt="Louisiana's Image"></div>
+                        <div class="text-dark">Hurricane Delta, Louisiana Landfall Risks 'Significant Flash
+                            Flooding'
                         </div>
                     </div>
                 </div>
@@ -1146,39 +1190,39 @@
             <div class="row">
                 <div class="col-md-4">
                     <figure>
-                        <img src="assets/img/brian-kilmeade.jpg" alt="">
-                        <figcaption>
+                        <img src="assets/img/brian-kilmeade.jpg" alt="Brain's image">
 
-                        </figcaption>
-                        <h5><a href="#" class="text-dark display-5">Fox News Host Says Trump 'Needs' Virtual Debate</a>
+                        <h5><a href="#" class="text-dark display-5">Fox News Host Says Trump 'Needs' Virtual
+                                Debate</a>
                         </h5>
                     </figure>
                 </div>
                 <div class="col-md-4">
                     <figure>
-                        <img src="assets/img/brian-kilmeade.jpg" alt="">
-                        <figcaption>
+                        <img src="assets/img/brian-kilmeade.jpg" alt="Brain's Image">
 
-                        </figcaption>
-                        <h5><a href="#" class="text-dark display-5">Fox News Host Says Trump 'Needs' Virtual Debate</a>
+                        <h5><a href="#" class="text-dark display-5">Fox News Host Says Trump 'Needs' Virtual
+                                Debate</a>
                         </h5>
                     </figure>
                 </div>
                 <div class="col-md-4">
                     <div class="d-flex justify-content-around">
-                        <div class="aside"><img src="assets/img/louisiana.jpg" alt="liuus"></div>
-                        <div class="text-dark">Hurricane Delta, Louisiana Landfall Risks 'Significant Flash Flooding'
+                        <div class="aside"><img src="assets/img/louisiana.jpg" alt="Louisiana's Image"></div>
+                        <div class="text-dark">Hurricane Delta, Louisiana Landfall Risks 'Significant Flash
+                            Flooding'
                         </div>
                     </div>
                     <hr>
                     <div class="d-flex justify-content-around">
-                        <div class="aside"><img src="assets/img/louisiana.jpg" alt="liuus"></div>
-                        <div class="text-dark">Hurricane Delta, Louisiana Landfall Risks 'Significant Flash Flooding'
+                        <div class="aside"><img src="assets/img/louisiana.jpg" alt="Louisiana's Image"></div>
+                        <div class="text-dark">Hurricane Delta, Louisiana Landfall Risks 'Significant Flash
+                            Flooding'
                         </div>
                     </div>
                     <hr>
                     <div class="d-flex justify-content-around">
-                        <div class="aside"><img src="assets/img/louisiana.jpg" alt="liuus"></div>
+                        <div class="aside"><img src="assets/img/louisiana.jpg" alt="Louisiana's Image"></div>
                         <div class="text-dark">Hurricane Delta, Louisiana Landfall Risks 'Significant
                             Flash Flooding'
                         </div>
@@ -1192,42 +1236,43 @@
             <div class="row">
                 <div class="col-md-4">
                     <figure>
-                        <img src="assets/img/brian-kilmeade.jpg" alt="">
-                        <figcaption>
+                        <img src="assets/img/brian-kilmeade.jpg" alt="Brain's Image">
 
-                        </figcaption>
-                        <h5><a href="#" class="text-dark display-5">Fox News Host Says Trump 'Needs' Virtual Debate</a>
+                        <h5><a href="#" class="text-dark display-5">Fox News Host Says Trump 'Needs' Virtual
+                                Debate</a>
                         </h5>
                     </figure>
                 </div>
                 <div class="col-md-4">
                     <figure>
-                        <img src="assets/img/brian-kilmeade.jpg" alt="">
-                        <figcaption>
+                        <img src="assets/img/brian-kilmeade.jpg" alt="Brain's Image">
 
-                        </figcaption>
-                        <h5><a href="#" class="text-dark display-5">Fox News Host Says Trump 'Needs' Virtual Debate</a>
+                        <h5><a href="#" class="text-dark display-5">Fox News Host Says Trump 'Needs' Virtual
+                                Debate</a>
                         </h5>
                     </figure>
                 </div>
                 <div class="col-md-4">
                     <div class="d-flex justify-content-around">
-                        <div class="aside"><img src="assets/img/louisiana.jpg" alt="liuus"></div>
-                        <div class="text-dark flex-grow-1">Hurricane Delta, Louisiana Landfall Risks 'Significant Flash
+                        <div class="aside"><img src="assets/img/louisiana.jpg" alt="Louisiana's Image"></div>
+                        <div class="text-dark flex-grow-1">Hurricane Delta, Louisiana Landfall Risks 'Significant
+                            Flash
                             Flooding'
                         </div>
                     </div>
                     <hr>
                     <div class="d-flex justify-content-around">
-                        <div class="aside"><img src="assets/img/louisiana.jpg" alt="liuus"></div>
-                        <div class="text-dark">Hurricane Delta, Louisiana Landfall Risks 'Significant Flash Flooding'
+                        <div class="aside"><img src="assets/img/louisiana.jpg" alt="Louisiana's Image"></div>
+                        <div class="text-dark">Hurricane Delta, Louisiana Landfall Risks 'Significant Flash
+                            Flooding'
                         </div>
                     </div>
 
                     <hr>
                     <div class="d-flex justify-content-around">
-                        <div class="aside"><img src="assets/img/louisiana.jpg" alt="liuus"></div>
-                        <div class="text-dark">Hurricane Delta, Louisiana Landfall Risks 'Significant Flash Flooding'
+                        <div class="aside"><img src="assets/img/louisiana.jpg" alt="Louisiana's Image"></div>
+                        <div class="text-dark">Hurricane Delta, Louisiana Landfall Risks 'Significant Flash
+                            Flooding'
                         </div>
                     </div>
                 </div>
@@ -1239,40 +1284,41 @@
             <div class="row">
                 <div class="col-md-4">
                     <figure>
-                        <img src="assets/img/brian-kilmeade.jpg" alt="">
-                        <figcaption>
+                        <img src="assets/img/brian-kilmeade.jpg" alt="Brain's Image">
 
-                        </figcaption>
-                        <h5><a href="#" class="text-dark display-5">Fox News Host Says Trump 'Needs' Virtual Debate</a>
+                        <h5><a href="#" class="text-dark display-5">Fox News Host Says Trump 'Needs' Virtual
+                                Debate</a>
                         </h5>
                     </figure>
                 </div>
                 <div class="col-md-4">
                     <figure>
-                        <img src="assets/img/brian-kilmeade.jpg" alt="">
-                        <figcaption>
+                        <img src="assets/img/brian-kilmeade.jpg" alt="Brain's Image">
 
-                        </figcaption>
-                        <h5><a href="#" class="text-dark display-5">Fox News Host Says Trump 'Needs' Virtual Debate</a>
+                        <h5><a href="#" class="text-dark display-5">Fox News Host Says Trump 'Needs' Virtual
+                                Debate</a>
                         </h5>
                     </figure>
                 </div>
                 <div class="col-md-4">
                     <div class="d-flex justify-content-around">
-                        <div class="aside"><img src="assets/img/louisiana.jpg" alt="liuus"></div>
-                        <div class="text-dark">Hurricane Delta, Louisiana Landfall Risks 'Significant Flash Flooding'
+                        <div class="aside"><img src="assets/img/louisiana.jpg" alt="Louisiana's Image"></div>
+                        <div class="text-dark">Hurricane Delta, Louisiana Landfall Risks 'Significant Flash
+                            Flooding'
                         </div>
                     </div>
                     <hr>
                     <div class="d-flex justify-content-around">
-                        <div class="aside"><img src="assets/img/louisiana.jpg" alt="liuus"></div>
-                        <div class="text-dark">Hurricane Delta, Louisiana Landfall Risks 'Significant Flash Flooding'
+                        <div class="aside"><img src="assets/img/louisiana.jpg" alt="Louisiana's Image"></div>
+                        <div class="text-dark">Hurricane Delta, Louisiana Landfall Risks 'Significant Flash
+                            Flooding'
                         </div>
                     </div>
                     <hr>
                     <div class="d-flex justify-content-around">
-                        <div class="aside"><img src="assets/img/louisiana.jpg" alt="liuus"></div>
-                        <div class="text-dark">Hurricane Delta, Louisiana Landfall Risks 'Significant Flash Flooding'
+                        <div class="aside"><img src="assets/img/louisiana.jpg" alt="Louisiana's Image"></div>
+                        <div class="text-dark">Hurricane Delta, Louisiana Landfall Risks 'Significant Flash
+                            Flooding'
                         </div>
                     </div>
                 </div>
@@ -1282,17 +1328,18 @@
         <!-- Last section -->
 
 
-        <section class="row border-bottom border-top bg-white pb-3 m-2">
+        <section class="row border-bottom border-top bg-white pt-5 m-2">
 
             <div class="col-lg-8 mb-md-3 my-5 m-lg-0">
                 <h6 class="red text-danger pl-3 ">SUBSCRIBE</h6>
                 <div class="d-sm-flex bg-lightgray h-100 bg-light">
                     <div class="col-lg-5 col-sm-4 col-12">
-                        <img src="assets/img/cover-october-09-16-2020.jpg" alt="Cover">
+                        <img src="assets/img/cover-october-09-16-2020.jpg" alt="Cover image">
 
                     </div>
                     <div class="ml-sm-3 col-sm-6 my-auto text-center text-sm-left">
-                        <h4 class="font-weight-bold">In-depth Stories You Don't See Elsewhere About Topics You Want to
+                        <h4 class="font-weight-bold">In-depth Stories You Don't See Elsewhere About Topics You Want
+                            to
                             Read!</h4>
                         <p class="font-weight-lighter">All Access + Weekly Delivery.
                             Choose A Membership That's Perfect for You!</p>
@@ -1303,10 +1350,10 @@
                 </div>
             </div>
             <div class="col-lg-4 mt-md-5 my-5 m-lg-0 ">
-                <h6 class="red">NEWSLETTER</h6>
+                <h6 class="text-danger">NEWSLETTER</h6>
                 <div class="d-flex h-100 border">
-                    <div class="col-lg-6 col-3 d-none d-sm-block p-0">
-                        <img src="assets/img/nb.png" alt="liuus">
+                    <div class="col-lg-6 col-3 d-sm-block d-none p-0">
+                        <img src="assets/img/nb.png" alt="Cover Image">
                     </div>
                     <div class="col-lg-6 col-sm-9 col-12 my-auto text-center text-sm-left">
                         <h4 class="font-weight-bold">The Starting 5
@@ -1325,60 +1372,63 @@
             <!-- end of Last section -->
             </div>
             <hr>
-            <section class="row d-flex justify-content-between pl-4 pr-4 pb-2 border-top mt-5">
-
-                <div class="col-md-6 ">
-
-                    <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
-                        xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 395.6 60"
-                        style="enable-background:new 0 0 395.6 60;" xml:space="preserve">
-                        <g>
-                            <path class="st0"
-                                d="M58.7,10.8h-5.6v48.3H42.8l-25.1-33v22.1h5.6v10.8H0V48.3h5.6V10.8H0V0h17.6L41,30.7V10.8h-5.6V0h23.2	L58.7,10.8L58.7,10.8z M95.8,38c0,0.9,0,1.8-0.1,2.7H70.3c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11	c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6C89.9,16.3,95.8,25.6,95.8,38 M159,27.3h-3.7	l-9.4,31.8h-12.5l-5.9-17.4l-5.3,17.4h-12.8L98.8,27.4h-3.7V16.6h22.1v10.7h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.6l5-16.9h-5.6V16.6	H159L159,27.3L159,27.3z M174.5,27.8c0,1.5,1.2,2.5,5.4,3.9l6,2c5.5,1.8,12.1,5.9,12.1,13.4c0,8.8-6.6,13-14.7,13	c-6.5,0-11.5-3.2-12.9-4.6V59h-10.8V44.4h10.6c0.3,4.8,4.6,7.3,8.5,7.3c3.2,0,4.7-1.4,4.7-3c0-2-1.2-3.1-6.5-4.8l-5.3-1.8	c-5.4-1.7-11.4-5.7-11.4-12.8c0-8.7,7.7-13.1,14.3-13.1c6.8,0,10.1,1.9,11.8,3.8l0.1-3.3H197v13.3h-11.2c-0.2-3.6-3.7-5.2-7.2-5.2	C175.8,24.8,174.5,26.1,174.5,27.8 M262.8,27.3h-3.7l-9.4,31.8h-12.5l-5.9-17.4L226,59.1h-12.8l-10.6-31.7h-3.7V16.6h22.1v10.7	h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.7l5-16.9h-5.6V16.6h18.5V27.3z M302,37.9c0,0.9,0,1.8-0.1,2.7h-25.4	c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1	c0-10.5,7-21.6,21-21.6C296.1,16.2,302,25.5,302,37.9 M343.9,37.8c0,0.9,0,1.8-0.1,2.7h-25.4c-0.7,8.2,2.4,10.6,7.1,10.6	c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6	C338,16.1,343.9,25.4,343.9,37.8 M389.9,59h-12.8l-13.3-17.3l-4.3,3.2v3.4h3.8V59h-19.6V48.3h3.7V10.6h-5.6V0h17.8v33.9l8.9-6.5	h-5.6V16.6h23.9v10.8h-3.7l-9.3,7l10.7,13.9h5.6L389.9,59L389.9,59z M395.6,56.6c0,0.5-0.1,0.9-0.4,1.2c-0.2,0.4-0.5,0.7-0.9,0.9	c-0.4,0.2-0.8,0.4-1.3,0.4c-0.5,0-0.9-0.1-1.2-0.4c-0.4-0.2-0.7-0.5-0.9-0.9c-0.2-0.4-0.4-0.8-0.4-1.2c0-0.5,0.1-0.9,0.4-1.2	c0.2-0.4,0.5-0.7,0.9-0.9c0.4-0.2,0.8-0.4,1.2-0.4c0.5,0,0.9,0.1,1.3,0.4c0.4,0.2,0.7,0.5,0.9,0.9	C395.5,55.8,395.6,56.2,395.6,56.6 M394.6,58c0.4-0.4,0.6-0.9,0.6-1.4c0-0.6-0.2-1-0.6-1.4s-0.9-0.6-1.4-0.6s-1,0.2-1.4,0.6	c-0.4,0.4-0.6,0.9-0.6,1.4c0,0.6,0.2,1,0.6,1.4c0.4,0.4,0.9,0.6,1.4,0.6S394.2,58.4,394.6,58 M393.6,56.8c0.1,0.1,0.2,0.1,0.2,0.1	c0.1,0.1,0.2,0.2,0.2,0.3c0,0,0.2,0.3,0.4,0.8h-0.8c-0.3-0.5-0.4-0.8-0.5-0.9c-0.1-0.1-0.2-0.2-0.3-0.2c0,0-0.1,0-0.1,0v1.1h-0.6	v-2.6h1.2c0.4,0,0.6,0.1,0.7,0.2c0.2,0.2,0.2,0.3,0.2,0.6c0,0.2-0.1,0.4-0.2,0.5C393.9,56.6,393.8,56.7,393.6,56.8 M393.5,56.3	c0.1-0.1,0.1-0.2,0.1-0.3s-0.1-0.2-0.1-0.3c-0.1-0.1-0.2-0.1-0.4-0.1h-0.3v0.7h0.3C393.3,56.4,393.4,56.4,393.5,56.3 M318.4,33.5	h13.9c0-6-3.9-8.4-6.8-8.4C322.1,25.2,318.6,27.9,318.4,33.5 M276.5,33.6h13.9c0-6-3.9-8.4-6.8-8.4C280.3,25.2,276.8,28,276.5,33.6 M70.3,33.7h13.9c0-6-3.9-8.4-6.8-8.4C74.1,25.3,70.6,28.1,70.3,33.7">
-                            </path>
-                        </g>
-                    </svg>
-                    <span class="copy-right">&copy 2020 NEWSWEEK DIGITAL LLC</span>
-                </div>
-
-                <div class="col-md-2justify-content-md-end row m-0 mb-3 text-dark social">
-                    <i class="fa fa-facebook-square "></i>
-                    <i class="fa fa-twitter "></i>
-                    <i class="fa fa-instagram "></i>
-                    <i class="fa fa-telegram "></i>
-                    <i class="fa fa-linkedin "></i>
-                </div>
-            </section>
-
-            <section class="col-md-12 d-flex col-md-12 flex-column pl-4 pb-5">
-                <div class="d-flex border-top pt-2">
-                    <span class="display-bold mr-4">Editions:</span>
-                    <ul class="footer font-size">
-                        <li><a href="#">U.S. Edition |</a> </li>
-                        <li><a href="#">日本 |</a> </li>
-                        <li><a href="#">Pakistan |</a> </li>
-                        <li><a href="#">Polska |</a> </li>
-                        <li><a href="#">România |</a> </li>
-                    </ul>
-                </div>
-
-                <ul class="footer font-size">
-                    <li><a href="#">About Us |</a> </li>
-                    <li><a href="#">Corrections |</a> </li>
-                    <li><a href="#">Contact Us |</a> </li>
-                    <li><a href="#">Editorial Guidelines |</a> </li>
-                    <li><a href="#">Advertise |</a> </li>
-                    <li><a href="#">Copyright |</a></li>
-                    <li><a href="#">Terms & Conditions |</a> </li>
-                    <li><a href="#">Privacy Policy |</a> </li>
-                    <li><a href="#">Cookie Policy |</a> </li>
-                    <li><a href="#">Terms of Sale |</a> </li>
-                    <li><a href="#">Archive |</a> </li>
-                    <li><a href="#">Announcements |</a> </li>
-                    <li><a href="#">GDPR Privacy Settings |</a> </li>
-                </ul>
-            </section>
+        </section>
     </main>
+    <footer>
+        <section class="row d-flex justify-content-between pl-4 pr-4 pb-2 border-top mt-5">
+
+            <div class="col-md-6 ">
+
+                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 395.6 60"
+                    style="enable-background:new 0 0 395.6 60;" xml:space="preserve">
+                    <g>
+                        <path class="st0"
+                            d="M58.7,10.8h-5.6v48.3H42.8l-25.1-33v22.1h5.6v10.8H0V48.3h5.6V10.8H0V0h17.6L41,30.7V10.8h-5.6V0h23.2	L58.7,10.8L58.7,10.8z M95.8,38c0,0.9,0,1.8-0.1,2.7H70.3c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11	c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6C89.9,16.3,95.8,25.6,95.8,38 M159,27.3h-3.7	l-9.4,31.8h-12.5l-5.9-17.4l-5.3,17.4h-12.8L98.8,27.4h-3.7V16.6h22.1v10.7h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.6l5-16.9h-5.6V16.6	H159L159,27.3L159,27.3z M174.5,27.8c0,1.5,1.2,2.5,5.4,3.9l6,2c5.5,1.8,12.1,5.9,12.1,13.4c0,8.8-6.6,13-14.7,13	c-6.5,0-11.5-3.2-12.9-4.6V59h-10.8V44.4h10.6c0.3,4.8,4.6,7.3,8.5,7.3c3.2,0,4.7-1.4,4.7-3c0-2-1.2-3.1-6.5-4.8l-5.3-1.8	c-5.4-1.7-11.4-5.7-11.4-12.8c0-8.7,7.7-13.1,14.3-13.1c6.8,0,10.1,1.9,11.8,3.8l0.1-3.3H197v13.3h-11.2c-0.2-3.6-3.7-5.2-7.2-5.2	C175.8,24.8,174.5,26.1,174.5,27.8 M262.8,27.3h-3.7l-9.4,31.8h-12.5l-5.9-17.4L226,59.1h-12.8l-10.6-31.7h-3.7V16.6h22.1v10.7	h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.7l5-16.9h-5.6V16.6h18.5V27.3z M302,37.9c0,0.9,0,1.8-0.1,2.7h-25.4	c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1	c0-10.5,7-21.6,21-21.6C296.1,16.2,302,25.5,302,37.9 M343.9,37.8c0,0.9,0,1.8-0.1,2.7h-25.4c-0.7,8.2,2.4,10.6,7.1,10.6	c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6	C338,16.1,343.9,25.4,343.9,37.8 M389.9,59h-12.8l-13.3-17.3l-4.3,3.2v3.4h3.8V59h-19.6V48.3h3.7V10.6h-5.6V0h17.8v33.9l8.9-6.5	h-5.6V16.6h23.9v10.8h-3.7l-9.3,7l10.7,13.9h5.6L389.9,59L389.9,59z M395.6,56.6c0,0.5-0.1,0.9-0.4,1.2c-0.2,0.4-0.5,0.7-0.9,0.9	c-0.4,0.2-0.8,0.4-1.3,0.4c-0.5,0-0.9-0.1-1.2-0.4c-0.4-0.2-0.7-0.5-0.9-0.9c-0.2-0.4-0.4-0.8-0.4-1.2c0-0.5,0.1-0.9,0.4-1.2	c0.2-0.4,0.5-0.7,0.9-0.9c0.4-0.2,0.8-0.4,1.2-0.4c0.5,0,0.9,0.1,1.3,0.4c0.4,0.2,0.7,0.5,0.9,0.9	C395.5,55.8,395.6,56.2,395.6,56.6 M394.6,58c0.4-0.4,0.6-0.9,0.6-1.4c0-0.6-0.2-1-0.6-1.4s-0.9-0.6-1.4-0.6s-1,0.2-1.4,0.6	c-0.4,0.4-0.6,0.9-0.6,1.4c0,0.6,0.2,1,0.6,1.4c0.4,0.4,0.9,0.6,1.4,0.6S394.2,58.4,394.6,58 M393.6,56.8c0.1,0.1,0.2,0.1,0.2,0.1	c0.1,0.1,0.2,0.2,0.2,0.3c0,0,0.2,0.3,0.4,0.8h-0.8c-0.3-0.5-0.4-0.8-0.5-0.9c-0.1-0.1-0.2-0.2-0.3-0.2c0,0-0.1,0-0.1,0v1.1h-0.6	v-2.6h1.2c0.4,0,0.6,0.1,0.7,0.2c0.2,0.2,0.2,0.3,0.2,0.6c0,0.2-0.1,0.4-0.2,0.5C393.9,56.6,393.8,56.7,393.6,56.8 M393.5,56.3	c0.1-0.1,0.1-0.2,0.1-0.3s-0.1-0.2-0.1-0.3c-0.1-0.1-0.2-0.1-0.4-0.1h-0.3v0.7h0.3C393.3,56.4,393.4,56.4,393.5,56.3 M318.4,33.5	h13.9c0-6-3.9-8.4-6.8-8.4C322.1,25.2,318.6,27.9,318.4,33.5 M276.5,33.6h13.9c0-6-3.9-8.4-6.8-8.4C280.3,25.2,276.8,28,276.5,33.6 M70.3,33.7h13.9c0-6-3.9-8.4-6.8-8.4C74.1,25.3,70.6,28.1,70.3,33.7">
+                        </path>
+                    </g>
+                </svg>
+                <span class="copy-right">&copy 2020 NEWSWEEK DIGITAL LLC</span>
+            </div>
+
+            <div class="col-md-2justify-content-md-end row m-0 mb-3 text-dark social">
+                <i class="fa fa-facebook-square "></i>
+                <i class="fa fa-twitter "></i>
+                <i class="fa fa-instagram "></i>
+                <i class="fa fa-telegram "></i>
+                <i class="fa fa-linkedin "></i>
+            </div>
+        </section>
+
+        <section class="col-md-12 d-flex col-md-12 flex-column pl-4 pb-5">
+            <div class="d-flex border-top pt-2">
+                <span class="display-bold mr-4">Editions:</span>
+                <ul class="footer font-size">
+                    <li><a href="#">U.S. Edition |</a> </li>
+                    <li><a href="#">日本 |</a> </li>
+                    <li><a href="#">Pakistan |</a> </li>
+                    <li><a href="#">Polska |</a> </li>
+                    <li><a href="#">România |</a> </li>
+                </ul>
+            </div>
+
+            <ul class="footer font-size">
+                <li><a href="#">About Us |</a> </li>
+                <li><a href="#">Corrections |</a> </li>
+                <li><a href="#">Contact Us |</a> </li>
+                <li><a href="#">Editorial Guidelines |</a> </li>
+                <li><a href="#">Advertise |</a> </li>
+                <li><a href="#">Copyright |</a></li>
+                <li><a href="#">Terms & Conditions |</a> </li>
+                <li><a href="#">Privacy Policy |</a> </li>
+                <li><a href="#">Cookie Policy |</a> </li>
+                <li><a href="#">Terms of Sale |</a> </li>
+                <li><a href="#">Archive |</a> </li>
+                <li><a href="#">Announcements |</a> </li>
+                <li><a href="#">GDPR Privacy Settings |</a> </li>
+            </ul>
+        </section>
+    </footer>
 
 </body>
 
