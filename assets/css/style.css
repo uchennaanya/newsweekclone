@@ -30,12 +30,34 @@ body {
   font-family: "Roboto Condenses", sans-serif;
 }
 
+.card a {
+  font-size: 24px;
+  line-height: 1;
+}
+
+.footer li a {
+  color: dimgrey;
+  padding: 0 0.2em 0 0;
+  font-weight: lighter;
+}
+
+.magazine a {
+  line-height: 1;
+  font-size: 20px;
+}
+
+.editors-pic-btn li a {
+  text-decoration-color: #f72210;
+  display: inline-block;
+  margin-top: -40px;
+}
+
 .nav-bar a {
   color: black;
   text-decoration: none;
 }
 
-nav-bar li {
+.nav-bar li {
   border: 1px solid;
 }
 
@@ -50,16 +72,11 @@ p {
 img {
   width: 100%;
   height: 100%;
-  /* object-fit: cover; */
 }
 
 #h-top {
   background-color: #f72210;
   padding: 20px;
-}
-
-#h-top img {
-  object-fit: unset;
 }
 
 #vs {
@@ -72,6 +89,7 @@ img {
 figure {
   z-index: 0;
 }
+
 figure img {
   z-index: 0;
 }
@@ -79,6 +97,7 @@ figure img {
 figcaption {
   z-index: 0;
 }
+
 figure figcaption {
   background-color: #ffffffe6;
   color: #f72210;
@@ -87,15 +106,24 @@ figure figcaption {
   left: 0;
 }
 
+.aside img {
+  width: 70%;
+  max-height: 100px;
+}
+
+.more-story img {
+  width: 30%;
+  max-height: 150px;
+}
+
+#h-top img {
+  object-fit: unset;
+}
+
 .showcase-title {
   color: #aaa;
   font-weight: bold;
   font-size: 14px;
-}
-
-.card a {
-  font-size: 24px;
-  line-height: 1;
 }
 
 /* In The Magazine Section */
@@ -107,6 +135,7 @@ svg {
   max-width: 200px;
   fill: #f72210;
 }
+
 .icon {
   display: inline-block;
   padding: 0.123em 0.3em;
@@ -118,12 +147,6 @@ svg {
 .footer li {
   display: inline-block;
   color: #000;
-}
-
-.footer li a {
-  color: dimgrey;
-  padding: 0 0.2em 0 0;
-  font-weight: lighter;
 }
 
 .magazine button {
@@ -145,12 +168,6 @@ svg {
 .magazine-img {
   width: 100%;
   height: 250px;
-  /* max-height: 150px; */
-}
-
-.magazine a {
-  line-height: 1;
-  font-size: 20px;
 }
 
 .cover-img {
@@ -167,20 +184,9 @@ svg {
   z-index: 0;
 }
 
-.editors-pic-btn li a {
-  text-decoration-color: #f72210;
-  display: inline-block;
-  margin-top: -40px;
-}
-
 .thumbnail-large {
   width: 100%;
   height: 400px;
-}
-
-.aside img {
-  width: 70%;
-  max-height: 100px;
 }
 
 .social i {
@@ -226,9 +232,4 @@ svg {
   pointer-events: none;
   color: dimgrey;
   font-size: 1.5rem;
-}
-
-.more-story img {
-  width: 30%;
-  max-height: 150px;
 }
