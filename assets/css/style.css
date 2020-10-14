@@ -57,6 +57,11 @@ body {
   margin-top: -40px;
 }
 
+.my-turn img {
+  width: 100%;
+  height: 150px;
+}
+
 .nav-bar a:hover {
   color: red;
 }
@@ -102,9 +107,15 @@ figure figcaption {
   left: 0;
 }
 
+.aside {
+  font-weight: 900;
+}
+
 .aside img {
-  width: 70%;
-  max-height: 100px;
+  width: 130px;
+  padding-right: 10px;
+  height: 130px;
+  max-height: 400px;
 }
 
 .more-story img {
@@ -124,10 +135,11 @@ figure figcaption {
 
 /* In The Magazine Section */
 .title {
+  margin-top: 50px;
   color: #000;
 }
 
-svg {
+.svg {
   max-width: 200px;
   fill: #f72210;
 }
@@ -149,8 +161,30 @@ svg {
   background-color: #f72210;
   border-radius: 0;
   padding: 0.1em 0.3rem;
-  margin-top: 10px;
   font-weight: 700;
+}
+
+.magazine h4 {
+  padding-top: 0.5em;
+}
+
+h5 {
+  margin-top: 0.5em;
+}
+
+.editors-pick img {
+  width: 100%;
+  height: 250px;
+}
+
+.editors-pick h4 {
+  margin: -30px 0 10px 0;
+  font-weight: 900;
+}
+
+.editors-pick a:hover {
+  font-weight: 900;
+  text-decoration-color: #f72210;
 }
 
 .my-btn {
@@ -163,7 +197,9 @@ svg {
 
 .magazine-img {
   width: 100%;
+  max-width: 100%;
   height: 250px;
+  max-height: 100vh;
 }
 
 .cover-img {
@@ -228,4 +264,79 @@ svg {
   pointer-events: none;
   color: dimgrey;
   font-size: 1.5rem;
+}
+
+.imgs {
+  top: 5%;
+  right: 10%;
+  max-height: 250px;
+}
+
+.overlap-imgs {
+  right: 10%;
+  max-height: 250px;
+}
+
+@media screen and (max-width: 991px) {
+  .svg {
+    height: 30px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .svg {
+    height: 30px;
+    width: 100%;
+  }
+
+  .magazine-img {
+    width: 100%;
+    height: 150px;
+    padding-bottom: -10px;
+    margin-bottom: -20px;
+  }
+
+  .magazine button {
+    background-color: #f72210;
+    border-radius: 0;
+    font-size: 12px;
+    padding: 0.1em 0.3rem;
+  }
+
+  .magazine > div {
+    font-size: 12px;
+  }
+
+  .editors-pic-btn img {
+    width: 100%;
+    height: 150px;
+  }
+
+  .padding {
+    padding-top: 50px;
+  }
+
+  p {
+    font-size: 0.6rem;
+    margin-right: 0;
+  }
+  .last-section .social {
+    margin: 0;
+    padding: 0;
+    display: inline;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .imgs {
+    top: 5%;
+    right: 10%;
+    max-width: 120px !important;
+    max-height: 150px;
+  }
+
+  .overlap-imgs {
+    right: 20%;
+    max-height: 150px;
+  }
 }
