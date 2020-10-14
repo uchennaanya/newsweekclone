@@ -17,6 +17,13 @@
 
 .header {
   z-index: 9999;
+  width: 100%;
+}
+
+.logo {
+  width: 80%;
+  height: auto;
+  float: right;
 }
 
 .logo-pic {
@@ -277,6 +284,17 @@ h5 {
   max-height: 250px;
 }
 
+input[type="text"] {
+  width: 100%;
+}
+
+.news-letter {
+  width: 100%;
+  height: 100%;
+  margin: 0 0 0 -15px;
+  padding: 0;
+}
+
 @media screen and (max-width: 991px) {
   .svg {
     height: 30px;
@@ -287,6 +305,10 @@ h5 {
   .svg {
     height: 30px;
     width: 100%;
+  }
+
+  input[type="text"] {
+    width: 35%;
   }
 
   .magazine-img {
@@ -316,6 +338,14 @@ h5 {
     padding-top: 50px;
   }
 
+  .padding-footer {
+    padding-top: 80px;
+  }
+
+  .adjusting {
+    padding: 20px 0 80px 0;
+  }
+
   p {
     font-size: 0.6rem;
     margin-right: 0;
@@ -335,8 +365,33 @@ h5 {
     max-height: 150px;
   }
 
+  .logo {
+    float: left;
+  }
+
+  .news-letter {
+    width: 300px;
+  }
+
+  .padding {
+    padding-top: 60px;
+  }
+
+  .btn {
+    width: 100%;
+  }
+
   .overlap-imgs {
     right: 20%;
     max-height: 150px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .news-letter {
+    width: 260px;
+  }
+  .btn {
+    width: 100%;
   }
 }
