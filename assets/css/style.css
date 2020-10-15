@@ -64,6 +64,15 @@ body {
   margin-top: -40px;
 }
 
+img {
+  width: 100%;
+  height: 100%;
+}
+
+figure img {
+  z-index: 0;
+}
+
 .my-turn img {
   width: 100%;
   height: 150px;
@@ -75,11 +84,6 @@ body {
 
 p {
   font-family: Arial, Helvetica, sans-serif;
-}
-
-img {
-  width: 100%;
-  height: 100%;
 }
 
 #h-top {
@@ -95,10 +99,6 @@ img {
 }
 
 figure {
-  z-index: 0;
-}
-
-figure img {
   z-index: 0;
 }
 
@@ -128,6 +128,11 @@ figure figcaption {
 .more-story img {
   width: 30%;
   max-height: 150px;
+}
+
+.editors-pick img {
+  width: 100%;
+  height: 250px;
 }
 
 #h-top img {
@@ -177,11 +182,6 @@ figure figcaption {
 
 h5 {
   margin-top: 0.5em;
-}
-
-.editors-pick img {
-  width: 100%;
-  height: 250px;
 }
 
 .editors-pick h4 {
@@ -350,6 +350,7 @@ input[type="text"] {
     font-size: 0.6rem;
     margin-right: 0;
   }
+
   .last-section .social {
     margin: 0;
     padding: 0;
@@ -391,6 +392,7 @@ input[type="text"] {
   .news-letter {
     width: 260px;
   }
+
   .btn {
     width: 100%;
   }
