@@ -228,6 +228,30 @@ h5 {
   height: 400px;
 }
 
+.sub-flex-div {
+  padding-bottom: 1.25em;
+  background-color: #f4f5f6;
+}
+
+.s-img-div {
+  position: relative;
+  height: 250px;
+}
+
+.s-img-div #sub-image1 {
+  position: absolute;
+}
+
+.s-img-div #sub-image2 {
+  position: absolute;
+  left: 83px;
+  top: 15px;
+}
+
+.sub-text-div {
+  padding-left: 40px;
+}
+
 .social i {
   margin: 0 5px 0 0;
   padding: 5px;
