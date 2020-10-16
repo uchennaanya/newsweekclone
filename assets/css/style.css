@@ -11,6 +11,12 @@
   background-color: #f4f5f6;
 }
 
+.image-63 {
+  width: 63px;
+  height: 63px;
+  object-fit: cover;
+}
+
 .wrapper {
   margin-top: 100px;
 }
@@ -20,6 +26,9 @@
   width: 100%;
 }
 
+.padding {
+  padding: 50px 0 40px 0;
+}
 .logo {
   width: 80%;
   height: auto;
@@ -61,7 +70,7 @@ body {
 .editors-pic-btn li a {
   text-decoration-color: #f72210;
   display: inline-block;
-  margin-top: -40px;
+  /* margin-top: -40px; */
 }
 
 img {
@@ -132,7 +141,7 @@ figure figcaption {
 
 .editors-pick img {
   width: 100%;
-  height: 250px;
+  height: auto;
 }
 
 #h-top img {
@@ -147,7 +156,7 @@ figure figcaption {
 
 /* In The Magazine Section */
 .title {
-  margin-top: 50px;
+  margin-top: 20px;
   color: #000;
 }
 
@@ -185,7 +194,7 @@ h5 {
 }
 
 .editors-pick h4 {
-  margin: -30px 0 10px 0;
+  margin: -40px 0 10px 0;
   font-weight: 900;
 }
 
@@ -273,15 +282,21 @@ h5 {
   font-size: 1.5rem;
 }
 
+.subscribe {
+  padding: 50px 0 70px 20px;
+}
+
 .imgs {
-  top: 5%;
-  right: 10%;
-  max-height: 250px;
+  top: 10%;
+  left: 30%;
+  width: 50%;
+  max-height: 100%;
 }
 
 .overlap-imgs {
-  right: 10%;
-  max-height: 250px;
+  right: 50%;
+  width: 50%;
+  max-height: 100%;
 }
 
 input[type="text"] {
@@ -289,10 +304,8 @@ input[type="text"] {
 }
 
 .news-letter {
-  width: 100%;
-  height: 100%;
-  margin: 0 0 0 -15px;
-  padding: 0;
+  margin-left: -30px;
+  height: 350px;
 }
 
 @media screen and (max-width: 991px) {
@@ -314,8 +327,6 @@ input[type="text"] {
   .magazine-img {
     width: 100%;
     height: 150px;
-    padding-bottom: -10px;
-    margin-bottom: -20px;
   }
 
   .magazine button {
@@ -325,17 +336,21 @@ input[type="text"] {
     padding: 0.1em 0.3rem;
   }
 
+  .magazine h4 {
+    padding-top: 0;
+  }
   .magazine > div {
     font-size: 12px;
   }
 
   .editors-pic-btn img {
     width: 100%;
-    height: 150px;
+    height: 250px;
+    margin-bottom: 10px;
   }
 
   .padding {
-    padding-top: 50px;
+    margin-bottom: 50px;
   }
 
   .padding-footer {
@@ -351,29 +366,43 @@ input[type="text"] {
     margin-right: 0;
   }
 
+  .imgs {
+    top: 10%;
+    right: 50%;
+    width: 80% !important;
+    max-height: 100%;
+  }
+
+  .overlap-imgs {
+    left: 50%;
+    width: 80% !important;
+    max-height: 100%;
+  }
+
   .last-section .social {
     margin: 0;
     padding: 0;
     display: inline;
   }
+
+  .editors img {
+    width: 50%;
+    height: 150px;
+  }
 }
 
 @media screen and (max-width: 767px) {
-  .imgs {
-    top: 5%;
-    right: 10%;
-    max-width: 120px !important;
-    max-height: 150px;
-  }
-
   .logo {
     float: left;
   }
-
-  .news-letter {
-    width: 300px;
+  .editors-pic-btn figcaption {
+    position: relative;
+    background-color: #ccc;
+    /* padding: 0.2em 1em; */
+    font-weight: 700;
+    top: -32px;
+    z-index: 0;
   }
-
   .padding {
     padding-top: 60px;
   }
@@ -382,18 +411,71 @@ input[type="text"] {
     width: 100%;
   }
 
-  .overlap-imgs {
-    right: 20%;
-    max-height: 150px;
+  .magazine .btn {
+    width: auto;
+    margin-right: 5px;
+  }
+
+  .news-letter {
+    width: 330px !important;
+    margin: 0 0 0 -15px;
+    height: 200px !important;
+    background-color: greenyellow;
+  }
+
+  .news-footer .btn {
+    font-size: 13px !important;
+  }
+
+  .my-turn img {
+    width: 100%;
+    height: 290px;
+  }
+
+  .news-footer {
+    height: auto !important;
+    padding-bottom: 50px;
+  }
+  .padding {
+    padding: 50px 0 40px 0;
+  }
+
+  .btn {
+    width: 100%;
+  }
+
+  .news-letter {
+    width: 100%;
+    height: 310px;
   }
 }
 
 @media screen and (max-width: 375px) {
   .news-letter {
-    width: 260px;
+    width: 300px !important;
+    margin: 0 0 0 -20px;
+    height: 200px !important;
+    background-color: greenyellow;
+  }
+
+  .news-footer .btn {
+    font-size: 13px !important;
+  }
+
+  .news-footer {
+    height: auto !important;
+    padding-bottom: 50px;
+  }
+  .padding {
+    padding: 50px 0 40px 0;
   }
 
   .btn {
     width: 100%;
+  }
+
+  .news-letter {
+    width: 100%;
+    height: 310px;
   }
 }
