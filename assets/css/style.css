@@ -405,6 +405,10 @@ input[type="text"] {
     padding-top: 60px;
   }
 
+  .btn {
+    width: 100%;
+  }
+
   .magazine .btn {
     width: auto;
     margin-right: 5px;
@@ -424,10 +428,6 @@ input[type="text"] {
   .my-turn img {
     width: 100%;
     height: 290px;
-  }
-
-  .btn {
-    width: 100%;
   }
 
   .news-footer {
