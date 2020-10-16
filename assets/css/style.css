@@ -400,12 +400,9 @@ input[type="text"] {
     top: -32px;
     z-index: 0;
   }
+
   .padding {
     padding-top: 60px;
-  }
-
-  .btn {
-    width: 100%;
   }
 
   .magazine .btn {
@@ -429,17 +426,13 @@ input[type="text"] {
     height: 290px;
   }
 
+  .btn {
+    width: 100%;
+  }
+
   .news-footer {
     height: auto !important;
     padding-bottom: 50px;
-  }
-
-  .padding {
-    padding: 50px 0 40px 0;
-  }
-
-  .btn {
-    width: 100%;
   }
 }
 
