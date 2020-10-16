@@ -444,10 +444,6 @@ input[type="text"] {
     background-color: greenyellow;
   }
 
-  .btn {
-    width: 100%;
-  }
-
   .news-footer .btn {
     font-size: 13px !important;
   }
@@ -459,5 +455,9 @@ input[type="text"] {
 
   .padding {
     padding: 50px 0 40px 0;
+  }
+
+  .btn {
+    width: 100%;
   }
 }
