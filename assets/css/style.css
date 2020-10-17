@@ -155,6 +155,7 @@ figure figcaption {
 }
 
 /* In The Magazine Section */
+
 .title {
   margin-top: 20px;
   color: #000;
@@ -299,18 +300,26 @@ h5 {
   max-height: 100%;
 }
 
+.news-letter {
+  height: 350px;
+}
+
 input[type="text"] {
   width: 100%;
 }
 
-.news-letter {
-  margin-left: -30px;
-  height: 350px;
+.news-footer .btn {
+  width: 100%;
 }
 
-@media screen and (max-width: 991px) {
+.news-footer input[type="text"] {
+  width: 100%;
+}
+
+@media screen and (max-width: 1024px) {
   .svg {
     height: 30px;
+    width: 100%;
   }
 }
 
@@ -318,10 +327,6 @@ input[type="text"] {
   .svg {
     height: 30px;
     width: 100%;
-  }
-
-  input[type="text"] {
-    width: 35%;
   }
 
   .magazine-img {
@@ -348,10 +353,6 @@ input[type="text"] {
     width: 100%;
     height: 250px;
     margin-bottom: 10px;
-  }
-
-  .padding-footer {
-    padding-top: 80px;
   }
 
   .adjusting {
@@ -388,9 +389,17 @@ input[type="text"] {
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .logo {
     float: left;
+  }
+
+  .news-footer .btn {
+    width: 50%;
+  }
+
+  .news-footer input[type="text"] {
+    width: 50%;
   }
 
   .editors-pic-btn figcaption {
@@ -415,8 +424,6 @@ input[type="text"] {
   }
 
   .news-letter {
-    width: 330px !important;
-    margin: 0 0 0 -15px;
     height: 200px !important;
     background-color: greenyellow;
   }
@@ -431,7 +438,7 @@ input[type="text"] {
   }
 
   .news-footer {
-    height: auto !important;
+    max-height: auto !important;
     padding-bottom: 50px;
   }
 }
@@ -449,7 +456,7 @@ input[type="text"] {
   }
 
   .news-footer {
-    height: auto !important;
+    min-height: 100px !important;
     padding-bottom: 50px;
   }
 
