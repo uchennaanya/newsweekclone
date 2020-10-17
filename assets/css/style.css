@@ -221,7 +221,7 @@ h5 {
 
 .cover-img {
   width: 100%;
-  max-height: auto;
+  height: auto;
 }
 
 .editors-pic-btn figcaption {
@@ -394,6 +394,10 @@ input[type="text"] {
     float: left;
   }
 
+  .btn {
+    width: 100%;
+  }
+
   .news-footer .btn {
     width: 50%;
   }
@@ -414,10 +418,6 @@ input[type="text"] {
     padding-top: 60px;
   }
 
-  .btn {
-    width: 100%;
-  }
-
   .magazine .btn {
     width: auto;
     margin-right: 5px;
@@ -428,17 +428,13 @@ input[type="text"] {
     background-color: greenyellow;
   }
 
-  .news-footer .btn {
-    font-size: 13px !important;
-  }
-
   .my-turn img {
     width: 100%;
     height: 290px;
   }
 
   .news-footer {
-    max-height: auto !important;
+    height: auto !important;
     padding-bottom: 50px;
   }
 }
@@ -448,7 +444,10 @@ input[type="text"] {
     width: 300px !important;
     margin: 0 0 0 -20px;
     height: 200px !important;
-    background-color: greenyellow;
+  }
+
+  .btn {
+    width: 100%;
   }
 
   .news-footer .btn {
@@ -462,9 +461,5 @@ input[type="text"] {
 
   .padding {
     padding: 50px 0 40px 0;
-  }
-
-  .btn {
-    width: 100%;
   }
 }
