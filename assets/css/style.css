@@ -215,13 +215,13 @@ h5 {
 .magazine-img {
   width: 100%;
   max-width: 100%;
-  height: 250px;
+  height: auto;
   max-height: 100vh;
 }
 
 .cover-img {
   width: 100%;
-  max-height: 450px;
+  max-height: auto;
 }
 
 .editors-pic-btn figcaption {
