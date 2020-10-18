@@ -64,13 +64,6 @@ body {
   font-size: larger;
 }
 
-.trending a:hover {
-  color: red !important;
-  text-decoration: none;
-  font-weight: 900 !important;
-  font-size: larger;
-}
-
 .nav-bar a {
   color: black;
   text-decoration: none;
@@ -87,6 +80,13 @@ body {
 .editors-pic-btn li a {
   text-decoration-color: #f72210;
   display: inline-block;
+}
+
+.trending a:hover {
+  color: red !important;
+  text-decoration: none;
+  font-weight: 900 !important;
+  font-size: larger;
 }
 
 img {
