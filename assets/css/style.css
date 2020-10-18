@@ -60,6 +60,8 @@ body {
 .nav-bar a {
   color: black;
   text-decoration: none;
+  font-weight: 900 !important;
+  font-size: larger;
 }
 
 .footer li a {
@@ -84,11 +86,12 @@ figure img {
 
 .my-turn img {
   width: 100%;
-  height: 150px;
+  height: auto;
 }
 
 .nav-bar a:hover {
-  color: red;
+  color: red !important;
+  font-weight: 900 !important;
 }
 
 p {
@@ -136,7 +139,7 @@ figure figcaption {
 
 .more-story img {
   width: 30%;
-  max-height: 150px;
+  height: auto;
 }
 
 .editors-pick img {
@@ -301,11 +304,8 @@ h5 {
 }
 
 .news-letter {
-  height: 350px;
-}
-
-input[type="text"] {
   width: 100%;
+  height: auto;
 }
 
 .news-footer .btn {
@@ -320,6 +320,22 @@ input[type="text"] {
   .svg {
     height: 30px;
     width: 100%;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .nav-bar a {
+    color: black;
+    text-decoration: none;
+    font-weight: 900 !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    word-wrap: inherit !important;
+    font-size: 0.8rem;
+  }
+
+  .nav-bar li {
+    padding: 0!important;
   }
 }
 
@@ -424,13 +440,12 @@ input[type="text"] {
   }
 
   .news-letter {
-    height: 200px !important;
-    background-color: greenyellow;
+    height: auto;
   }
 
   .my-turn img {
     width: 100%;
-    height: 290px;
+    height: auto;
   }
 
   .news-footer {
@@ -441,9 +456,9 @@ input[type="text"] {
 
 @media screen and (max-width: 375px) {
   .news-letter {
-    width: 300px !important;
-    margin: 0 0 0 -20px;
-    height: 200px !important;
+    width: 100%;
+    margin: 0;
+    height: auto;
   }
 
   .btn {
