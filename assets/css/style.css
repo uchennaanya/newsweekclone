@@ -384,7 +384,7 @@ h5 {
     top: 10%;
     right: 50%;
     width: 100%;
-    max-height: auto;
+    height: auto;
   }
 
   .overlap-imgs {
