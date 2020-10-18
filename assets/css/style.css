@@ -293,14 +293,14 @@ h5 {
 .imgs {
   top: 10%;
   left: 30%;
-  width: 50%;
-  max-height: 100%;
+  width: 100%;
+  height: auto;
 }
 
 .overlap-imgs {
   right: 50%;
-  width: 50%;
-  max-height: 100%;
+  width: 100%;
+  height: auto;
 }
 
 .news-letter {
@@ -383,14 +383,14 @@ h5 {
   .imgs {
     top: 10%;
     right: 50%;
-    width: 80% !important;
-    max-height: 100%;
+    width: 100%;
+    max-height: auto;
   }
 
   .overlap-imgs {
     left: 50%;
-    width: 80% !important;
-    max-height: 100%;
+    width: 100%;
+    height: auto;
   }
 
   .last-section .social {
