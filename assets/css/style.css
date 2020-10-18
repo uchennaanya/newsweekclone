@@ -57,6 +57,20 @@ body {
   font-size: 20px;
 }
 
+.trending a {
+  color: dimgrey !important;
+  text-decoration: none;
+  font-weight: 900 !important;
+  font-size: larger;
+}
+
+.trending a:hover {
+  color: red !important;
+  text-decoration: none;
+  font-weight: 900 !important;
+  font-size: larger;
+}
+
 .nav-bar a {
   color: black;
   text-decoration: none;
@@ -332,6 +346,18 @@ h5 {
     margin: 0 !important;
     word-wrap: inherit !important;
     font-size: 0.8rem;
+  }
+
+  .header-bottom::before {
+    background-color: #dc3545;
+    border-left: 12px solid white;
+    border-top: 13px solid #dc3545;
+    content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 110px;
   }
 
   .nav-bar li {
