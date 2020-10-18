@@ -17,10 +17,6 @@
   object-fit: cover;
 }
 
-.wrapper {
-  margin-top: 100px;
-}
-
 .header {
   z-index: 9999;
   width: 100%;
@@ -67,8 +63,8 @@ body {
 .nav-bar a {
   color: black;
   text-decoration: none;
-  font-weight: 900 !important;
-  font-size: larger;
+  font-weight: bolder !important;
+  font-size: large;
 }
 
 .footer li a {
