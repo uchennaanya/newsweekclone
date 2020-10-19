@@ -380,12 +380,12 @@ h5 {
     height: 150px;
   }
 
-  .news-letter input[type="text"] {
-    width: 50%;
-  }
-
   .news-letter .btn {
     width: 50% !important;
+  }
+
+  .news-letter input[type="text"] {
+    width: 50%;
   }
   
   .magazine button {
