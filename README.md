@@ -3,7 +3,7 @@
 # THE NEW WEB WEBSITE
 
 This is the clone of the News Week web site. It has been built with Bootstrap 4. We used very few css codes.
-![screenshot](assets/img/newweb-screenshot.png)
+![screenshot](assets/img/nwscreenshoot.png)
 
 ## The following are some the features of this project:
 

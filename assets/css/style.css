@@ -297,28 +297,36 @@ h5 {
 }
 
 .subscribe {
-  padding: 50px 0 70px 20px;
+  padding: 30px 0 0 20px;
 }
 
 .imgs {
   top: 10%;
-  left: 30%;
+  left: 50%;
   width: 100%;
   height: auto;
 }
 
 .overlap-imgs {
-  right: 50%;
+  left: 50%;
   width: 100%;
   height: auto;
 }
 
-.news-letter {
-  width: 100%;
-  height: auto;
+.subscribe .btn {
+  background-color: red;
 }
 
 .news-footer .btn {
+  width: 100%;
+}
+
+.news-letter .btn {
+  width: 100%;
+  background-color: red;
+}
+
+.news-letter input[type="text"] {
   width: 100%;
 }
 
@@ -372,6 +380,13 @@ h5 {
     height: 150px;
   }
 
+  .news-letter input[type="text"] {
+    width: 50%;
+  }
+
+  .news-letter .btn {
+    width: 50% !important;
+  }
   .magazine button {
     background-color: #f72210;
     border-radius: 0;
@@ -433,7 +448,11 @@ h5 {
   }
 
   .btn {
-    width: 100%;
+    width: 50%;
+  }
+
+  input[type="text"] {
+    width: 50%;
   }
 
   .news-footer .btn {
@@ -474,6 +493,25 @@ h5 {
     height: auto !important;
     padding-bottom: 50px;
   }
+
+  .imgs {
+    top: 10%;
+    left: 30%;
+    width: 60%;
+    height: auto;
+  }
+
+  .overlap-imgs {
+    right: 50%;
+    width: 70%;
+    height: auto;
+  }
+}
+
+@media (max-width: 411px) {
+  input[type="text"] {
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 375px) {
@@ -484,7 +522,7 @@ h5 {
   }
 
   .btn {
-    width: 100%;
+    width: 50%;
   }
 
   .news-footer .btn {
