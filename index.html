@@ -1,0 +1,1282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet" />
+    <link rel="icon" href="assets/img/favicon.ico" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>News Week</title>
+</head>
+
+<body class="container-fluid px-0 px-lg-4 bg">
+    <header class="d-sm-block .header-bottom">
+        <nav id="h-top" class="text-white py-2">
+            <div class="top-nav d-flex justify-content-start">
+                <div class="weather-date col-lg-3 py-3 d-none d-lg-block">
+                    <div class="">
+                        <a class="text-white" href="#">
+                            <i class="fas fa-cloud-sun-rain"></i><span>30</span><span>India</span>
+                        </a>
+                    </div>
+                    <div>Fri, Oct, 09, 2020</div>
+                </div>
+
+                <div class=" col-md-3 col-lg-4 col-5 py-1">
+                    <img src="assets/img/logo.png" alt="Logo" class="logo" />
+                </div>
+
+                <div
+                    class="col-lg-5 col-md-6 col-6 d-flex align-items-center justify-content-end ml-auto p-0 float-right">
+                    <i class="fas fa-user fa-md-2x d-md-none"></i>
+                    <button type="submit"
+                        class="display-5 font-weight-bolder m-0 bg-transparent border-0 text-white d-none d-md-block">
+                        LOGIN
+                    </button>
+                    <div class="">
+                        <button type="button"
+                            class="col-11 btn btn-warning p-0 w-100 font-weight-bolder rounded-pill mx-3 display-5">
+                            SUBSCRIBE >
+                        </button>
+                    </div>
+                    <i class="bars-icon ml-2 fas fa-bars d-lg-none"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="d-none d-lg-block bg-white py-2 medium-nav  header-bottom">
+        <div class="align-items-center border-bottom d-flex flex-row-reverse justify-content-end d-none w-100">
+            <div class="form-group has-search">
+                <span class="fa fa-search form-control-feedback display-1"></span>
+                <input type="text" class="form-control" placeholder="Search">
+            </div>
+
+            <ul class="navbar nav-bar medium-nav-items list-unstyled m-0 justify-content-between w-100">
+                <li class="border-right pr-3 m-0">
+                    <a class="text-nowrap font-weight-bold h6 text-dark m-0" href="#">U.S</a>
+                </li>
+                <li class="border-right pr-3 m-0">
+                    <a class="text-nowrap font-weight-bold h6 text-dark m-0" href="#">World</a>
+                </li>
+                <li class="border-right pr-3 m-0">
+                    <a class="text-nowrap font-weight-bold h6 text-dark m-0" href="#">Business</a>
+                </li>
+                <li class="border-right pr-3 m-0">
+                    <a class="text-nowrap font-weight-bold h6 text-dark m-0" href="#">Tech & Science</a>
+                </li>
+                <li class="border-right pr-3 m-0">
+                    <a class="text-nowrap font-weight-bold h6 text-dark m-0" href="#">Culture</a>
+                </li>
+                <li class="border-right pr-3 m-0">
+                    <a class="text-nowrap font-weight-bold h6 text-dark m-0" href="#">News Geek</a>
+                </li>
+                <li class="border-right pr-3 m-0">
+                    <a class="text-nowrap font-weight-bold h6 text-dark m-0" href="#">Sports</a>
+                </li>
+                <li class="border-right pr-3 m-0">
+                    <a class="text-nowrap font-weight-bold h6 text-dark m-0" href="#">Health</a>
+                </li>
+                <li class="border-right pr-3 m-0">
+                    <a class="text-nowrap font-weight-bold h6 text-dark m-0" href="#">The Debate</a>
+                </li>
+                <li class="border-right pr-3 m-0">
+                    <a class="text-nowrap font-weight-bold h6 text-dark m-0" href="#">Vantage</a>
+                </li>
+                <li class="border-right pr-3 m-0">
+                    <a class="text-nowrap font-weight-bold h6 text-dark m-0" href="#">Weather</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="d-none d-lg-block bg-white py-2 medium-nav">
+            <div class="align-items-center border-bottom d-flex W-75">
+                <ul class="navbar medium-nav-items list-unstyled m-0 justify-content-start trending">
+                    <li>
+                        <a class="text-nowrap font-weight-bold h6 px-3 text-dark m-0" href="#">TRENDING</a>
+                    </li>
+                    <li>
+                        <a class="text-nowrap font-weight-bold h6 px-3 text-dark m-0" href="#">DONALD TRUMP</a>
+                    </li>
+                    <li>
+                        <a class="text-nowrap font-weight-bold h6 px-3 text-dark m-0" href="#">JOE BIDEN</a>
+                    </li>
+                    <li>
+                        <a class="text-nowrap font-weight-bold h6 px-3 text-dark m-0" href="#">CHINA</a>
+                    </li>
+                    <li>
+                        <a class="text-nowrap font-weight-bold h6 px-3 text-dark m-0" href="#">CORONAVIRUS</a>
+                    </li>
+                    <li>
+                        <a class="text-nowrap font-weight-bold h6 px-3 text-dark m-0" href="#">2020 ELECTIONS</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- FIrst section -->
+    <main class="bg-white text-dark">
+        <section class="row mx-3">
+
+            <!-- featured stories column -->
+
+            <div class="bg-white mb-3 mb-md-0 p-3 col-md-5 col-lg order-1">
+
+
+                <div class="d-md-none bg-white mb-3 order-first order-md-2">
+                    <h3 class="showcase-title text-uppercase">
+                        TOP STORY
+                    </h3>
+                    <div class="card border-0 mb-3 order-first">
+                        <figure class="position-relative">
+                            <img src="assets/img/US.jpg" alt="showcase-image" class="w-100">
+                            <figcaption
+                                class="position-absolute fixed-bottom w-25 p-1 d-flex justify-content-center align-items-center">
+                                U.S.
+                            </figcaption>
+                        </figure>
+                        <a class="mb-2 text-dark" href="#">Microsoft's New Permanent 'Remote Work Policy' Could
+                            Devastate Host
+                            Communi</a>
+                        <p>
+                            As a critical deadline looms, White House officials are stressing that they want to extend
+                            enhanced unemployment benefits that went into effect earlier this year in response to the
+                            coronavirus pandemic but negotiations with Democratic leaders, so far, have fallen short.
+                        </p>
+                    </div>
+                </div>
+
+                <h3 class="showcase-title text-uppercase">
+                    Featured Stories
+                </h3>
+
+                <div class="card border-0 mb-3">
+                    <figure class="position-relative">
+                        <img src="assets/img/breonnataylorhome.webp" alt="showcase-image" class="w-100">
+                        <figcaption
+                            class="position-absolute fixed-bottom w-25 p-1 d-flex justify-content-center align-items-center">
+                            U.S.
+                        </figcaption>
+                    </figure>
+                    <a class="mb-2 text-dark" href="#">What We Learned—and Didn't Learn—From Breonna Taylor Grand Jury
+                        Testimony</a>
+                    <p class="text-dark h6">
+                        Americans deserve to know about what happened on that tragic night in Louisville. The grand jury
+                        testimony presents a complicated story.
+                    </p>
+                </div>
+
+                <div class="card border-0 mb-3">
+                    <figure class="position-relative">
+                        <img src="assets/img/US.jpg" alt="showcase-image" class="w-100">
+                        <figcaption
+                            class="position-absolute fixed-bottom w-25 p-1 d-flex justify-content-center align-items-center">
+                            U.S.
+                        </figcaption>
+                    </figure>
+                    <a class="mb-2 text-dark" href="#">
+                        Microsoft's New Permanent 'Remote Work Policy' Could Devastate Host Communi
+                    </a>
+                    <p class="text-dark h6">
+                        Microsoft's decision to allow employees to work remotely on a permanent basis is part of a trend
+                        that could lead to widespread economic changes. The areas surrounding corporate headquarters may
+                        see business closures and job losses.
+                    </p>
+                </div>
+
+                <div class="card border-0 mb-3">
+                    <figure class="position-relative">
+                        <img src="assets/img/clarence-thomas.webp" alt="showcase-image" class="w-100">
+                        <figcaption
+                            class="position-absolute fixed-bottom w-25 p-1 d-flex justify-content-center align-items-center">
+                            U.S.
+                        </figcaption>
+                    </figure>
+                    <a class="mb-2 text-dark" href="#">Thomas Wants SCOTUS to Revisit Social Media Companies' Legal
+                        Protections</a>
+                    <p class="text-dark h6">
+                        The conservative judge suggested that the "sweeping immunity" social media companies have been
+                        granted should be reduced.
+                    </p>
+                </div>
+
+                <div class="card border-0 mb-3">
+                    <figure class="position-relative">
+                        <img src="assets/img/kim-jong-un-cry-economy.webp" alt="showcase-image" class="w-100">
+                        <figcaption
+                            class="position-absolute fixed-bottom w-25 p-1 d-flex justify-content-center align-items-center">
+                            U.S.
+                        </figcaption>
+                    </figure>
+                    <a class="mb-2 text-dark" href="#">A Weeping Kim Jong Un May Hand Donald Trump an Unexpected
+                        Triumph</a>
+                    <p class="text-dark h6">
+                        Kim's crying over the country's economic collapse under U.S.-led sanctions may suggest a
+                        willingness to restart nuclear disarmament talks with the Trump administration.
+                    </p>
+                </div>
+
+                <div class="card border-0">
+                    <figure class="position-relative">
+                        <img src="assets/img/mitch-mcconnell.webp" alt="showcase-image" class="w-100">
+                        <figcaption
+                            class="position-absolute fixed-bottom w-25 p-1 d-flex justify-content-center align-items-center">
+                            U.S.
+                        </figcaption>
+                    </figure>
+                    <a class="mb-2 text-dark" href="#">Senate GOP to Vote on Small-Business Relief Next Week Despite No
+                        Stim Deal</a>
+                    <p class="text-dark h6">
+                        While Democrats will almost certainly block the bill, as they did with a previous piecemeal bill
+                        by Republicans, it will offer vulnerable GOP senators last-minute political ammunition as voters
+                        prepare to cast their ballots.
+                    </p>
+                </div>
+            </div>
+
+            <!-- top story column -->
+
+            <div class="bg-white col-md-7 col-lg-5 d-flex flex-column p-md-0 order-3 order-md-2">
+                <div class="d-none d-md-block bg-white p-3 order-md-first">
+                    <h3 class="showcase-title text-uppercase">
+                        TOP STORY
+                    </h3>
+                    <div class="card border-0 order-first">
+                        <figure class="position-relative w-100">
+                            <img src="assets/img/nb.png" alt="showcase-image" class="w-100">
+                            <figcaption
+                                class="position-absolute fixed-bottom w-25 p-1 d-flex justify-content-center align-items-center">
+                                U.S.
+                            </figcaption>
+                        </figure>
+                        <a class="mb-2 text-dark" href="#">
+                            Dems Looking to Oust GOP Senators are Raking in Massive Amounts of Cash
+                        </a>
+                        <p>
+                            The massive cash hauls in the last three months come as waning poll numbers for President
+                            Trump and Republicans, as well as the political battle over the Supreme Court, have
+                            Democrats growing increasingly confident they can retake the upper chamber.
+                        </p>
+                    </div>
+                </div>
+                <!-- my turn -->
+
+                <div class="pr-1 pl-3 order-2 order-md-1 w-100 my-turn">
+                    <h3 class="showcase-title p-1">MY TURN</h3>
+                    <div class="d-md-flex">
+                        <figure class="col-md-4 p-1">
+                            <img class="img-fluid" src="assets/img/turn.jpg" alt="show-image">
+                            <figcaption class="showcase-title mt-2">
+                                'I Get Dangerous Creatures to Bite and Sting Me on Purpose'
+                            </figcaption>
+                        </figure>
+                        <figure class="col-md-4 p-1">
+                            <img class="img-fluid"
+                                src="https://d.newsweek.com/en/full/1651562/doctors-black-doctors-black-women.jpg?w=397&amp;h=397&amp;f=be740fb23f1221385ce261c2798ccf10"
+                                alt="show-image">
+                            <figcaption class="showcase-title mt-2">
+                                'I Get Dangerous Creatures to Bite and Sting Me on Purpose'
+                            </figcaption>
+                        </figure>
+                        <figure class="col-md-4 p-1">
+                            <img class="img-fluid" src="assets/img/turn.jpg" alt="show-image">
+
+                            <figcaption class="showcase-title mt-2">
+                                'I Get Dangerous Creatures to Bite and Sting Me on Purpose'
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+
+                <!-- culture and travel -->
+
+                <div class=" p-3 order-3 order-md-2 w-100">
+                    <h3 class="showcase-title p-1">CULTURE & TRAVEL</h3>
+                    <div class="d-md-flex">
+                        <div class="card border-0 px-0 col-md-4">
+                            <figure class="position-relative">
+                                <img class="img-fluid" src="assets/img/ct.jpg" alt="show-image">
+                                <figcaption
+                                    class="text-center position-absolute fixed-bottom bg-info text-dark w-50 small">
+                                    TRAVEL
+                                </figcaption>
+                            </figure>
+                            <p class="showcase-title mt-2">
+                                Missing Flying? Flights to Nowhere Take Off As a New Travel Trend
+                            </p>
+                        </div>
+                        <div class="card border-0 px-0 mx-1 col-md-4">
+                            <figure class="position-relative">
+                                <img class="img-fluid" src="assets/img/ct.jpg" alt="show-image">
+                                <figcaption
+                                    class="text-center position-absolute fixed-bottom bg-info text-dark w-50 small">
+                                    TRAVEL
+                                </figcaption>
+                            </figure>
+                            <p class="showcase-title mt-2">
+                                Missing Flying? Flights to Nowhere Take Off As a New Travel Trend
+                            </p>
+                        </div>
+
+                        <div class="card border-0 px-0 col-md-4">
+                            <figure class="position-relative">
+                                <img class="img-fluid" src="assets/img/ct.jpg" alt="show-image">
+                                <figcaption
+                                    class="text-center position-absolute fixed-bottom bg-info text-dark w-50 small">
+                                    TRAVEL
+                                </figcaption>
+                            </figure>
+                            <p class="showcase-title mt-2">
+                                Missing Flying? Flights to Nowhere Take Off As a New Travel Trend
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- more storeis column -->
+
+                <div class="more-story mb-md-0 p-3 mt-3 order-1 order-md-3">
+                    <h3 class="showcase-title text-uppercase pb-3 mt-3">
+                        MORE STORIES
+                    </h3>
+                    <div class="border-top pt-3 pb-5 d-xs-flex">
+                        <div>
+                            <img class="col-3 p-0 mr-3 float-left" src="assets/img/russian-coronavirus-red-square.webp"
+                                alt="show-image">
+                            <a class="mb-4 h6 text-dark font-weight-bolder" href="#">
+                                Trump Has Accused Numerous Political Rivals of Crimes, Now Including Biden Against
+                                COVID-19
+                            </a>
+                        </div>
+
+                        <p class="mt-2">
+                            President Donald Trump has repeatedly touted the anti-malaria drug as a COVID-19 treatment,
+                            despite a lack of evidence.
+                        </p>
+                    </div>
+
+                    <div class=" border-top pt-3 pb-5">
+                        <img class="col-3 p-0 mr-3 float-left" src="assets/img/russian-coronavirus-red-square.webp"
+                            alt="show-image">
+                        <a class="mb-4 h6 text-dark font-weight-bolder" href="#">
+                            Trump Has Accused Numerous Political Rivals of Crimes, Now Including Biden Against COVID-19
+                        </a>
+                        <p class="mt-2">
+                            President Donald Trump has repeatedly touted the anti-malaria drug as a COVID-19 treatment,
+                            despite a lack of evidence.
+                        </p>
+                    </div>
+
+                    <div class=" border-top pt-3 pb-5">
+                        <img class="col-3 p-0 mr-3 float-left" src="assets/img/apple-watch.webp" alt="show-image"> <a
+                            class="mb-4 h6 text-dark font-weight-bolder" href="#">Apple Watch Data Shows the World Got
+                            Half As Noisy During Lockdown</a>
+                        <p class="mt-2">
+                            Researchers obtained more than 500,000 daily noise readings before and during the pandemic,
+                            in a study that spanned California, Florida, New York and Texas.
+                        </p>
+                    </div>
+
+                    <div class=" border-top pt-3 pb-5">
+                        <img class="col-3 p-0 mr-3 float-left" src="assets/img/donald-trump-florida-getty.webp"
+                            alt="show-image">
+                        <a class="mb-4 h6 text-dark font-weight-bolder" href="#">
+                            Fact check: Does the WHO Now Agree With Donald Trump on Ending Lockdowns?
+                        </a>
+                        <p class="mt-2">
+                            WHO officials have said throughout the pandemic that lockdowns should not be the only
+                            approach taken by countries to prevent the spread of the coronavirus.
+                        </p>
+                    </div>
+
+                    <div class=" border-top pt-3 pb-5">
+                        <img class="col-3 p-0 mr-3 float-left" src="assets/img/russian-coronavirus-red-square.webp"
+                            alt="show-image">
+                        <a class="mb-4 h6 text-dark font-weight-bolder" href="#">
+                            Trump Has Accused Numerous Political Rivals of Crimes, Now Including Biden Against COVID-19
+                        </a>
+                        <p class="mt-2">
+                            President Donald Trump has repeatedly touted the anti-malaria drug as a COVID-19 treatment,
+                            despite a lack of evidence.
+                        </p>
+                    </div>
+                    <div class="border-top pt-3 pb-5">
+                        <img class="col-3 p-0 mr-3 float-left" src="assets/img/apple-watch.webp" alt="show-image">
+                        <a class="mb-4 h6 text-dark font-weight-bolder" href="#">
+                            Trump Has Accused Numerous Political Rivals of Crimes, Now Including Biden Against COVID-19
+                        </a>
+                        <p class="mt-2">
+                            President Donald Trump has repeatedly touted the anti-malaria drug as a COVID-19 treatment,
+                            despite a lack of evidence.
+                        </p>
+                    </div>
+                    <div class=" border-top pt-3 pb-5">
+                        <img class="col-3 p-0 mr-3 float-left" src="assets/img/donald-trump-florida-getty.webp"
+                            alt="show-image">
+                        <a class="mb-4 h6 text-dark font-weight-bolder" href="#">
+                            Trump Has Accused Numerous Political Rivals of Crimes, Now Including Biden Against COVID-19
+                        </a>
+                        <p class="mt-2">
+                            President Donald Trump has repeatedly touted the anti-malaria drug as a COVID-19 treatment,
+                            despite a lack of evidence.
+                        </p>
+                    </div>
+
+                    <div class=" border-top border-bottom pt-3 pb-5">
+                        <img class="col-3 p-0 mr-3 float-left" src="assets/img/donald-trump-florida-getty.webp"
+                            alt="show-image">
+                        <a class="mb-4 h6 text-dark font-weight-bolder" href="#">Trump Has Accused Numerous Political
+                            Rivals of Crimes,
+                            Now Including Biden Against COVID-19</a>
+                        <p class="mt-2">
+                            President Donald Trump has repeatedly touted the anti-malaria drug as a COVID-19 treatment,
+                            despite a lack of evidence.
+                        </p>
+                    </div>
+                    <div class="pt-3 pb-5">
+                        <img class="col-3 p-0 mr-3 float-left" src="assets/img/donald-trump-florida-getty.webp"
+                            alt="show-image">
+                        <h6><a class="mb-4 h6 text-dark font-weight-bolder" href="#">Trump Has Accused Numerous
+                                Political Rivals of Crimes,
+                                Now Including Biden Against COVID-19</a></h6>
+
+                        <p class="mt-2">
+                            President Donald Trump has repeatedly touted the anti-malaria drug as a COVID-19 treatment,
+                            despite a lack of evidence.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="d-md-none order-last my-1 p-4 w-75 mx-auto">
+                    <div class="row border mb-3 badge-light m-auto ">
+                        <img class="w-25 col-2 my-3 pr-0" src="assets/img/n.png" alt="Newsletter logo">
+                        <h6 class="font-weight-bolder mt-3 pr-1 col-10">START YOUR DAY WITH OUR TOP 5 ARTICLES</h6>
+                        <input class="border my-1 mx-3 p-1 w-100" type="email" name="email" placeholder="Email...">
+                        <button type="submit"
+                            class="mt-1 p-1 mb-3 mx-3 border-0 text-white w-100 font-weight-bold bg-danger">
+                            FREE SIGN-UP >
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- debate and opinion columns -->
+
+            <div class="bg-white p-3 col-12 col-lg order-2 order-md-3 the-debate-column">
+                <h3 class="showcase-title">THE DEBATE</h3>
+
+                <!-- debate -->
+
+                <div class="position-relative mb-md-0 mb-4">
+
+                    <article class="border-bottom row my-1 mx-1 py-3">
+                        <div class="col-2 p-0">
+                            <div>
+                                <img src="assets/img/sab.png" alt="avatar" class="rounded-circle" />
+                            </div>
+                        </div>
+                        <div class="col-10 ml-2  p-0 row flex-column">
+                            <h5><a href="#" class="mb-1 responsive-font-size text-dark display-bold href=">The Time Is
+                                    Now to Recommit to a National Assault Weapon Ban </a></h5>
+                            <p>BY <strong>Sabrina Elva</strong></p>
+                        </div>
+
+                    </article>
+
+                    <article class="border-top row my-1 mx-1 py-3">
+
+                        <div class="col-10 ml-2  p-0 row flex-column">
+                            <h5><a class="mb-1 text-dark display-bold" href="#">The Time Is Now to Recommit to a
+                                    National Assault Weapon Ban
+                                </a></h5>
+                            <p>BY <strong>MARC LEVIN</strong></p>
+                        </div>
+                        <div class="col-2 p-0">
+                            <div>
+                                <img src="assets/img/sab.png" alt="avatar" class="rounded-circle" />
+
+                            </div>
+                        </div>
+
+                    </article>
+
+                    <span id="vs" class="position-absolute text-white p-1 rounded-circle">
+                        VS
+                    </span>
+                </div>
+
+                <!-- opinion -->
+                <div class="block-title pb-2 font-roboto">OPINION</div>
+                <div class="media">
+                    <img class="image-63 img-fluid rounded-circle"
+                        src="https://d.newsweek.com/en/full/1533434/swalwell2.webp?w=150&h=150&f=b4925d53fde4dc49edb774ea5fdbadbd"
+                        alt="Img">
+                    <div class="media-body ml-3">
+                        <a class="font-weight-bold font-roboto text-dark hover-underline" href="#">The Time Is Now to
+                            Recommit to a National Assault Weapon Ban</a>
+                        <p class="m-0 text-muted font-roboto"><span class="font-weight-light">By</span> <a
+                                class="text-dark hover-underline" href="#">Eric Swalwell</a></p>
+                    </div>
+                </div>
+                <div class="media border-top pt-2 mt-2">
+                    <img class="image-63 img-fluid rounded-circle"
+                        src="https://d.newsweek.com/en/full/1533434/swalwell2.webp?w=150&h=150&f=b4925d53fde4dc49edb774ea5fdbadbd"
+                        alt="Img">
+                    <div class="media-body ml-3">
+                        <a class="font-weight-bold font-roboto text-dark hover-underline" href="#">The Time Is Now to
+                            Recommit to a National Assault Weapon Ban</a>
+                        <p class="m-0 text-muted font-roboto"><span class="font-weight-light">By</span> <a
+                                class="text-dark hover-underline" href="#">Eric Swalwell</a></p>
+                    </div>
+                </div>
+                <div class="media border-top pt-2 mt-2">
+                    <img class="image-63 img-fluid rounded-circle"
+                        src="https://d.newsweek.com/en/full/1533434/swalwell2.webp?w=150&h=150&f=b4925d53fde4dc49edb774ea5fdbadbd"
+                        alt="Img">
+                    <div class="media-body ml-3">
+                        <a class="font-weight-bold font-roboto text-dark hover-underline" href="#">The Time Is Now to
+                            Recommit to a National Assault Weapon Ban</a>
+                        <p class="m-0 text-muted font-roboto"><span class="font-weight-light">By</span> <a
+                                class="text-dark hover-underline" href="#">Eric Swalwell</a></p>
+                    </div>
+                </div>
+                <div class="media border-top pt-2 mt-2">
+                    <img class="image-63 img-fluid rounded-circle"
+                        src="https://d.newsweek.com/en/full/1533434/swalwell2.webp?w=150&h=150&f=b4925d53fde4dc49edb774ea5fdbadbd"
+                        alt="Img">
+                    <div class="media-body ml-3">
+                        <a class="font-weight-bold font-roboto text-dark hover-underline" href="#">The Time Is Now to
+                            Recommit to a National Assault Weapon Ban</a>
+                        <p class="m-0 text-muted font-roboto"><span class="font-weight-light">By</span> <a
+                                class="text-dark hover-underline" href="#">Eric Swalwell</a></p>
+                    </div>
+                </div>
+                <div class="media border-top pt-2 mt-2">
+                    <img class="image-63 img-fluid rounded-circle"
+                        src="https://d.newsweek.com/en/full/1533434/swalwell2.webp?w=150&h=150&f=b4925d53fde4dc49edb774ea5fdbadbd"
+                        alt="Img">
+                    <div class="media-body ml-3">
+                        <a class="font-weight-bold font-roboto text-dark hover-underline" href="#">The Time Is Now to
+                            Recommit to a National Assault Weapon Ban</a>
+                        <p class="m-0 text-muted font-roboto"><span class="font-weight-light">By</span> <a
+                                class="text-dark hover-underline" href="#">Eric Swalwell</a></p>
+                    </div>
+                </div>
+                <div class="media border-top pt-2 mt-2">
+                    <img class="image-63 img-fluid rounded-circle"
+                        src="https://d.newsweek.com/en/full/1533434/swalwell2.webp?w=150&h=150&f=b4925d53fde4dc49edb774ea5fdbadbd"
+                        alt="Img">
+                    <div class="media-body ml-3">
+                        <a class="font-weight-bold font-roboto text-dark hover-underline" href="#">The Time Is Now to
+                            Recommit to a National Assault Weapon Ban</a>
+                        <p class="m-0 text-muted font-roboto"><span class="font-weight-light">By</span> <a
+                                class="text-dark hover-underline" href="#">Eric Swalwell</a></p>
+                    </div>
+                </div>
+                <div class="media border-top pt-2 mt-2">
+                    <img class="image-63 img-fluid rounded-circle"
+                        src="https://d.newsweek.com/en/full/1533434/swalwell2.webp?w=150&h=150&f=b4925d53fde4dc49edb774ea5fdbadbd"
+                        alt="Img">
+                    <div class="media-body ml-3">
+                        <a class="font-weight-bold font-roboto text-dark hover-underline" href="#">The Time Is Now to
+                            Recommit to a National Assault Weapon Ban</a>
+                        <p class="m-0 text-muted font-roboto"><span class="font-weight-light">By</span> <a
+                                class="text-dark hover-underline" href="#">Eric Swalwell</a></p>
+                    </div>
+                </div>
+                <div class="media border-top pt-2 mt-2">
+                    <img class="image-63 img-fluid rounded-circle"
+                        src="https://d.newsweek.com/en/full/1533434/swalwell2.webp?w=150&h=150&f=b4925d53fde4dc49edb774ea5fdbadbd"
+                        alt="Img">
+                    <div class="media-body ml-3">
+                        <a class="font-weight-bold font-roboto text-dark hover-underline" href="#">The Time Is Now to
+                            Recommit to a National Assault Weapon Ban</a>
+                        <p class="m-0 text-muted font-roboto"><span class="font-weight-light">By</span> <a
+                                class="text-dark hover-underline" href="#">Eric Swalwell</a></p>
+                    </div>
+                </div>
+
+                <!-- sign up  -->
+
+                <div class="d-none d-md-block order-last order-md-last mb-1 mt-5 p-4 p-lg-0 w-100 mx-auto bg-white">
+                    <div class="row border mb-3 badge-light  col-sm-6 col-lg-12 m-auto ">
+                        <img class="w-25 col-2 my-3 pr-0" src="assets/img/n.png" alt="Newsletter logo">
+                        <h5 class="font-weight-bolder mt-3 pr-1 col-10">START YOUR DAY WITH OUR TOP 5 ARTICLES</h5>
+                        <input class="border my-1 mx-3 p-1 w-100" type="email" name="email" placeholder="Email...">
+                        <button type="submit"
+                            class="mt-1 p-1 mb-3 mx-3 border-0 text-white w-100 font-weight-bold bg-danger">
+                            FREE SIGN-UP >
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- THE DEBATE -->
+
+        <section>
+
+            <div class="our-magazine d-flex justify-content-center border-bottom bg-white  pb-3">
+                <div class="justify-content-center d-flex ">
+                    <img class="logo-pic w-25 mr-2" src="assets/img/n.png" alt="Newsletter logo">
+                    <h5 class="align-self-center">IN THE MAGAZINE</h5>
+                </div>
+            </div>
+
+            <div class=" m-3 bg-white row magazine">
+                <div class="col-md-3 mb-0 mb-md-0">
+                    <figure class="mb-0 position-relative">
+                        <img src="assets/img/ms.jpg" class="cover-img" alt="ms">
+                        <figcaption class="position-absolute my-0 p-1 text-nowrap">
+                            OCTOBER 16 ISSUE
+                        </figcaption>
+                    </figure>
+                    <h5 class="p-3 border-0 w-100 my-0 p-2 bg"> <a href="#" class="text-dark">SEE ALL FEATURES ></a>
+                    </h5>
+                </div>
+
+                <div class="col-md-3 mb-3">
+                    <figure class="position-relative mb-0 pt-2">
+                        <img src="assets/img/kate-mckinnon.webp" class="magazine-img mb-5" alt="fe">
+                        <figcaption
+                            class="d-flex align-items-center title position-absolute bg-whitetext-nowrap w-100 fixed-bottom">
+
+                            <div> <button class="btn btn-danger" type="button">COVER</button> </div>
+                            <div class="align-self-end pl-1 text-danger font-weight-bold">U.S.</div>
+                        </figcaption>
+                    </figure>
+                    <h4>
+                        <a href="#" class="text-dark">
+                            Biden Should Promise to Pack the Supreme Court to Save It From Partisan War
+                        </a>
+                    </h4>
+                </div>
+
+                <div class="mb-3 col-md-3 ">
+                    <figure class="position-relative mb-0 pt-2">
+                        <img src="assets/img/fe-rbg-banner.jpg" class="magazine-img" alt="fe">
+                        <figcaption class="d-flex align-items-center title">
+                            <div class="align-self-end pl-1 text-danger font-weight-bold"><button type="button"
+                                    class="btn btn-danger">FEATURES</button></div>
+                            <div class="align-self-end pl-1 text-danger font-weight-bold">POLITICS</div>
+                        </figcaption>
+                    </figure>
+                    <h4>
+                        <a href="#" class="text-dark">
+                            Biden Should Promise to Pack the Supreme Court to Save It From Partisan War
+                        </a>
+                    </h4>
+                </div>
+
+                <div class="col-md-3">
+                    <figure class="mb-0 pt-2 position-relative ">
+                        <img src="assets/img/fe-rbg-banner.jpg" class="magazine-img" alt="fe">
+                        <figcaption class="d-flex align-items-center title">
+                            <div class="align-self-end pl-1 text-danger font-weight-bold"><button type="button"
+                                    class="btn btn-danger">FEATURES</button></div>
+                            <div class="align-self-end pl-1 text-danger font-weight-bold"> POLITICS</div>
+
+                        </figcaption>
+
+                    </figure>
+                    <h4> <a href="#" class="text-dark">Biden Should Promise to Pack the Supreme Court to Save It From
+                            Partisan War</a> </h4>
+                </div>
+
+                <div class="col-md-3">
+                    <figure class="position-relative mb-0 pt-2">
+                        <img src="assets/img/long-way-hero-2.webp" class="magazine-img" alt="fe">
+                        <figcaption class="d-flex align-items-center title">
+                            <button type="button" class="btn btn-danger">PERISCOPE</button>
+                            <div class="align-self-end pl-1 text-danger font-weight-bold">CULTURE</div>
+                        </figcaption>
+                    </figure>
+                    <h4><a href="#" class="text-dark">Biden Should Promise to Pack the Supreme Court to Save It From
+                            PartisanWar</a> </h4>
+                </div>
+
+                <div class="col-md-3">
+                    <figure class="position-relative mb-0 pt-2">
+                        <img src="assets/img/fe-rbg-banner.jpg" class="magazine-img" alt="fe">
+                        <figcaption class="d-flex align-items-center title">
+                            <button class="btn btn-danger">DOWNTIME</button>
+                            <div class="align-self-end pl-1 text-danger font-weight-bold"> CULTURE</div>
+                        </figcaption>
+                    </figure>
+                    <h4><a href="#" class="text-dark">Biden Should Promise to Pack the Supreme Court to Save
+                            It From PartisanWar</a> </h4>
+                </div>
+
+                <div class="col-md-3">
+                    <figure class="position-relative mb-0 pt-2">
+                        <img src="assets/img/cul-map-wes-anderson-white-cyclon-banner.webp" class="magazine-img"
+                            alt="fe">
+                        <figcaption class="d-flex align-items-center title">
+                            <button class="btn btn-danger">DOWNTIME</button>
+                            <div class="align-self-end pl-1 text-danger font-weight-bold"> CULTURE</div>
+
+                        </figcaption>
+
+                    </figure>
+                    <h4>
+                        <a href="#" class="text-dark">
+                            Biden Should Promise to Pack the Supreme Court to Save It From Partisan War
+                        </a>
+                    </h4>
+                </div>
+
+                <div class="card border-0 my-3 col-md-3">
+                    <figure class="position-relative h-100 pt-2 mb-0">
+                        <img src="assets/img/per-latinovote-05-1158241102.webp" alt="Justice MAGAZINE"
+                            class="w-100 h-100 mb-0" />
+                        <p class="position-absolute fixed-bottom w-25 text-nowrap py-1 my-0">
+                            <span class="bg-danger text-white p-1 m-0">FIRE FIGHT</span>
+                        </p>
+                    </figure>
+                    <a class="text-dark" href="#">Kermit the Frog and Miss Piggy on Their New Disney+ Show 'Muppets
+                        Now'</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- The Editors Section -->
+
+        <section class="container-fluid  bg-white px-4 magazine padding editors-pic-btn">
+            <h5 class="text-center title"> <span class="icon text-white">N</span> <span class="title">EDITOR'S
+                    PICK</span></h5>
+            <hr>
+            <div class="row editors-pick">
+
+                <div class="col-12 col-md-6 col-lg-3 ">
+                    <figure>
+                        <img src="assets/img/donald-trump.webp" class="magazine-img" alt="fe">
+                        <figcaption
+                            class="position-relative fixed-bottom w-25 p-2 d-flex justify-content-center align-items-center small">
+                            COVER
+                        </figcaption>
+                    </figure>
+                    <h4>
+                        <a class="text-dark editors-pic-btn" href="#">
+                            Biden Should Promise to Pack the Supreme Court to Save It From Partisan War
+                        </a>
+                    </h4>
+                    <p class="text-dark">
+                        The near-$150 billion premium came as demands for key vaccines and medications increased,
+                        and health services across the world were left feeling the strain.
+                    </p>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-3">
+                    <figure>
+                        <img src="assets/img/fe-rbg-banner.jpg" class="magazine-img" alt="fe">
+                        <figcaption
+                            class="position-relative fixed-bottom w-25 p-2 d-flex justify-content-center align-items-center small">
+                            COVER
+                        </figcaption>
+                    </figure>
+                    <h4>
+                        <a class="text-dark editors-pic-btn" href="#">
+                            Biden Should Promise to Pack the Supreme Court to Save It From Partisan War
+                        </a>
+                    </h4>
+                    <p class="text-dark">
+                        The near-$150 billion premium came as demands for key vaccines andmedications increased, and
+                        health services across the world were left feeling the strain.
+                    </p>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <figure>
+                        <img src="assets/img/obama.webp" alt="fe">
+                        <figcaption
+                            class="position-relative fixed-bottom w-25 p-2 d-flex justify-content-center align-items-center small">
+                            COVER
+                        </figcaption>
+                    </figure>
+                    <h4>
+                        <a class="text-dark editors-pic-btn" href="#">
+                            Biden Should Promise to Pack the Supreme Court to Save It From Partisan War
+                        </a>
+                    </h4>
+                    <p class="text-dark">
+                        The near-$150 billion premium came as demands for key vaccines and medications increased,
+                        and health services across the world were left feeling the strain.
+                    </p>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-3">
+                    <figure>
+                        <img src="assets/img/kate-mckinnon.webp" alt="fe">
+                        <figcaption
+                            class="position-relative fixed-bottom w-25 p-2 d-flex justify-content-center align-items-center small">
+                            COVER
+                        </figcaption>
+                    </figure>
+                    <h4>
+                        <a class="text-dark editors-pic-btn" href="#">
+                            Biden Should Promise to Pack the Supreme Court to Save It From Partisan War
+                        </a>
+                    </h4>
+                    <p class="text-dark">
+                        The near-$150 billion premium came as demands for key vaccines and medications
+                        increased, and health services across the world were left feeling the strain.
+                    </p>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-3">
+                    <figure>
+                        <img src="assets/img/nursery-child-getty-stock.webp" class="magazine-img" alt="fe">
+                        <figcaption
+                            class="position-relative top-100px fixed-bottom w-25 p-2 d-flex justify-content-center align-items-center small">
+                            COVER
+                        </figcaption>
+                    </figure>
+                    <h4>
+                        <a class="text-dark editors-pic-btn" href="#">
+                            Biden Should Promise to Pack the Supreme Court to Save It From Partisan War
+                        </a>
+                    </h4>
+                    <p class="text-dark">
+                        The near-$150 billion premium came as demands for key vaccines and medications
+                        increased, and health services across the world were left feeling the strain.
+                    </p>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-3">
+                    <figure>
+                        <img src="assets/img/joe-biden-donald-trump.webp" class="magazine-img" alt="fe">
+                        <figcaption
+                            class="position-relative fixed-bottom w-25 p-2 d-flex justify-content-center align-items-center small">
+                            COVER
+                        </figcaption>
+                    </figure>
+                    <h4>
+                        <a class="text-dark editors-pic-btn" href="#">
+                            Donald Trump Outspends Joe Biden on Facebook Ads In These Key States
+                        </a>
+                    </h4>
+                    <p class="text-dark">
+                        According to the social media giant, Trump has spent more in Texas, Iowa, Ohio and Nebraska.
+                        The president is targeting blocs of voters in states that could tip the election result.
+                    </p>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-3">
+                    <figure>
+                        <img src="assets/img/north-koreas-leader-kim-jong-un.webp" class="magazine-img" alt="fe">
+                        <figcaption
+                            class="position-relative  fixed-bottom w-25 p-2 d-flex justify-content-center align-items-center small">
+                            COVER
+                        </figcaption>
+                    </figure>
+                    <h4>
+                        <a class="text-dark editors-pic-btn" href="#">
+                            Biden Should Promise to Pack the Supreme Court to Save It From Partisan War
+                        </a>
+                    </h4>
+                    <p class="text-dark">
+                        The near-$150 billion premium came as demands for key vaccines and medications
+                        increased, and health services across the world were left feeling the strain.
+                    </p>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-3">
+                    <figure>
+                        <img src="assets/img/fe-rbg-banner.jpg" class="magazine-img" alt="fe">
+                        <figcaption
+                            class="position-relative fixed-bottom w-25 p-2 d-flex justify-content-center align-items-center small">
+                            COVER
+                        </figcaption>
+                    </figure>
+                    <h4>
+                        <a class="text-dark editors-pic-btn" href="#">
+                            White House Embraces Herd Immunity in Latest Push to End COVID-19 Lockdowns
+                        </a>
+                    </h4>
+                    <p class="text-dark">
+                        The White House is doubling down on its push to reopen the economy, now openly embracing a
+                        herd immunity strategy at the urging of some health experts.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <!-- End of ditors pick -->
+        <section class="container-fluid bg-white p-4">
+            <hr class="pt-2">
+            <h5 class="text-danger display-bold">U.S</h5>
+            <div class="row">
+                <div class="col-md-4">
+                    <figure>
+                        <img src="assets/img/brian-kilmeade.jpg" alt="Brain's Image">
+
+                        <h5><a href="#" class="text-dark display-5">Fact Check: Who Was the Last U.S. President Without
+                                an Ivy League Degree?</a>
+                        </h5>
+                    </figure>
+                </div>
+                <div class="col-md-4">
+                    <figure>
+                        <img src="assets/img/joe-biden.webp" alt="Brain's Image">
+
+                        <h5><a href="#" class="text-dark display-5">Fox News Host Says Trump 'Needs' Virtual Debate</a>
+                        </h5>
+                    </figure>
+                </div>
+                <div class="col-md-4 ">
+                    <div class="d-flex aside">
+                        <div>
+                            <img src="assets/img/fea-finance-covid.webp" alt="Louisiana's Image">
+                        </div>
+                        <div class="text-dark flex-grow-1 aside-txt">If Biden Wins, Healthcare Stocks Rise, Not as Much
+                            As for Trump: US Bank
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="d-flex justify-content-around aside">
+                        <div><img src="assets/img/joe-biden-donald-trump.webp" alt="Louisiana's Image"></div>
+                        <div class="text-dark">Biden Leading in Crucial Pennsylvania, Where Trump Won by Under 1%: Poll
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="d-flex justify-content-around aside">
+                        <div><img src="assets/img/usps-mailbox.webp" alt="Louisiana's Image"></div>
+                        <div class="text-dark">Joe Biden and Donald Trump Supporters Not Budging in Pennsylvania County
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container-fluid bg-white p-4">
+            <hr class="pt-2">
+            <h5 class="text-danger display-bold">World</h5>
+            <div class="row">
+                <div class="col-md-4">
+                    <figure>
+                        <img src="assets/img/senkaku.webp" alt="Brain's Image">
+
+                        <h5><a href="#" class="text-dark display-5">Chinese Ships Break Record of Staying Near Contested
+                                Japanese Islands</a>
+                        </h5>
+                    </figure>
+                </div>
+                <div class="col-md-4">
+                    <figure>
+                        <img src="assets/img/taiwan-military-drills-china-conflict.webp" alt="Brain's Image">
+
+                        <h5><a href="#" class="text-dark display-5">Fox News Host Says Trump 'Needs' Virtual
+                                Debate</a>
+                        </h5>
+                    </figure>
+                </div>
+                <div class="col-md-4">
+                    <div class="d-flex justify-content-around aside">
+                        <div><img src="assets/img/best-2020-amazon-prime-day-tv-deals.webp" alt="Louisiana's Image">
+                        </div>
+                        <div class="text-dark">Hurricane Delta, Louisiana Landfall Risks 'Significant Flash
+                            Flooding'
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="d-flex justify-content-around aside">
+                        <div><img src="assets/img/louisiana.jpg" alt="Louisiana's Image"></div>
+                        <div class="text-dark">Hurricane Delta, Louisiana Landfall Risks 'Significant Flash
+                            Flooding'
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="d-flex justify-content-around aside">
+                        <div><img src="assets/img/roberta-mccain.webp" alt="Louisiana's Image"></div>
+                        <div class="text-dark">Hurricane Delta, Louisiana Landfall Risks 'Significant Flash
+                            Flooding'
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container-fluid bg-white p-4">
+            <hr class="pt-2">
+            <h5 class="text-danger display-bold">Business</h5>
+            <div class="row">
+                <div class="col-md-4">
+                    <figure>
+                        <img src="assets/img/disney.webp" alt="Brain's Image">
+
+                        <h5><a href="#" class="text-dark display-5">Who is Kareem Daniel? Former Disney Intern Given Top
+                                Job</a>
+                        </h5>
+                    </figure>
+                </div>
+                <div class="col-md-4">
+                    <figure>
+                        <img src="assets/img/harambe.webp" alt="Brain's Image">
+
+                        <h5><a href="#" class="text-dark display-5">Fox News Host Says Trump 'Needs' Virtual
+                                Debate</a>
+                        </h5>
+                    </figure>
+                </div>
+                <div class="col-md-4">
+                    <div class="d-flex justify-content-around aside">
+                        <div><img src="assets/img/louisiana.jpg" alt="liuus"></div>
+                        <div class="text-dark">Hurricane Delta, Louisiana Landfall Risks 'Significant Flash
+                            Flooding'
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="d-flex justify-content-around aside">
+                        <div><img src="assets/img/gisele-barreto-fetterman.webp" alt="Louisiana image"></div>
+                        <div class="text-dark">PM Boris Johnson Ignored Experts as Full Lockdown in England Was Advised
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="d-flex justify-content-around aside">
+                        <div><img src="assets/img/stock.webp" alt="Louisiana's Image"></div>
+                        <div class="text-dark">Black Student's Yearbook Tribute Replaced With Racist 'Harambe' Message
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container-fluid bg-white p-4">
+            <hr class="pt-2">
+            <h5 class="text-danger display-bold">Tech & Science</h5>
+            <div class="row">
+                <div class="col-md-4">
+                    <figure>
+                        <img src="assets/img/china-trade-manufacturing.webp" alt="Brain's image">
+
+                        <h5><a href="#" class="text-dark display-5">U.S.-China Trade Soars, Despite Trump Tariffs</a>
+                        </h5>
+                    </figure>
+                </div>
+                <div class="col-md-4">
+                    <figure>
+                        <img src="assets/img/google-apple-facebook-amazon.webp" alt="Brain's Image">
+
+                        <h5><a href="#" class="text-dark display-5">Fox News Host Says Trump 'Needs' Virtual
+                                Debate</a>
+                        </h5>
+                    </figure>
+                </div>
+                <div class="col-md-4">
+                    <div class="d-flex justify-content-around aside">
+                        <div><img src="assets/img/louisiana.jpg" alt="Louisiana's Image"></div>
+                        <div class="text-dark">Hurricane Delta, Louisiana Landfall Risks 'Significant Flash
+                            Flooding'
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="d-flex justify-content-around aside">
+                        <div><img src="assets/img/tesla-model-3.webp" alt="Louisiana's Image"></div>
+                        <div class="text-dark">Woman Says Tesla Model 3 Saved Her Life After 'Head-On' Truck Collision
+                        </div>
+                    </div>
+                    <hr>
+
+                    <div class="d-flex justify-content-around aside">
+                        <div><img src="assets/img/tesla-model-3.webp" alt="Louisiana's Image"></div>
+                        <div class="text-dark">Woman Says Tesla Model 3 Saved Her Life After 'Head-On' Truck Collision
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container-fluid bg-white p-4">
+            <hr class="pt-2">
+            <h5 class="text-danger display-bold">Culture</h5>
+            <div class="row">
+                <div class="col-md-4">
+                    <figure>
+                        <img src="assets/img/istock-photo-halloween.webp" alt="Brain's Image">
+
+                        <h5><a href="#" class="text-dark display-5">What Halloween Costumes Say About This Weird
+                                Year</a>
+                        </h5>
+                    </figure>
+                </div>
+                <div class="col-md-4">
+                    <figure>
+                        <img src="assets/img/harambe.webp" alt="Brain's Image">
+
+                        <h5><a href="#" class="text-dark display-5">Fox News Host Says Trump 'Needs' Virtual
+                                Debate</a>
+                        </h5>
+                    </figure>
+                </div>
+                <div class="col-md-4">
+                    <div class="d-flex justify-content-around aside">
+                        <div><img src="assets/img/ps5-standard-ps5-digital-edition-console.webp"
+                                alt="Louisiana's Image"></div>
+                        <div class="text-dark flex-grow-1">The Best 2020 Amazon Prime Day Laptop Deals
+                            Flooding'
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="d-flex justify-content-around aside">
+                        <div><img src="assets/img/louisiana.jpg" alt="Louisiana's Image"></div>
+                        <div class="text-dark">Hurricane Delta, Louisiana Landfall Risks 'Significant Flash
+                            Flooding'
+                        </div>
+                    </div>
+
+                    <hr>
+                    <div class="d-flex justify-content-around aside">
+                        <div><img src="assets/img/steve-martin-discovered-etsy.webp" alt="Louisiana's Image"></div>
+                        <div class="text-dark">Steve Martin Discovered Etsy. 5 Stores Right Up His Vintage Loving Alley
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container-fluid bg-white p-4">
+            <hr class="pt-2">
+            <h5 class="text-danger display-bold">Sports</h5>
+            <div class="row">
+                <div class="col-md-4">
+                    <figure>
+                        <img src="assets/img/lebron-james.webp" alt="Brain's Image">
+
+                        <h5><a href="#" class="text-dark display-5">LeBron James Laughs Off Tom Brady's 'Washed Up Old
+                                Guy' Congratulations</a>
+                        </h5>
+                    </figure>
+                </div>
+                <div class="col-md-4">
+                    <figure>
+                        <img src="assets/img/wauwatosa.webp" alt="Brain's Image">
+
+                        <h5><a href="#" class="text-dark display-5">Fox News Host Says Trump 'Needs' Virtual
+                                Debate</a>
+                        </h5>
+                    </figure>
+                </div>
+                <div class="col-md-4">
+                    <div class="d-flex justify-content-around aside">
+                        <div><img src="assets/img/buffalo-bills-tennessee-titans.webp" alt="Louisiana's Image"></div>
+                        <div class="text-dark">Did NBA Finals Ratings Crash Nearly 70 Percent, as Donald Trump Claims?
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="d-flex justify-content-around aside">
+                        <div><img src="assets/img/lebron-james.webp" alt="Louisiana's Image"></div>
+                        <div class="text-dark">FOX Sports host brings goat into studio to settle LeBron vs Jordan Debate
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="d-flex justify-content-around aside">
+                        <div><img src="assets/img/louisiana.jpg" alt="Louisiana's Image"></div>
+                        <div class="text-dark">Hurricane Delta, Louisiana Landfall Risks 'Significant Flash
+                            Flooding'
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Last section -->
+
+        <section class="row mx-4 border-top padding">
+            <!-- subscribe -->
+            <div class="col-sm-12 col-lg-7 m-lg-0 col-mb-5">
+                <h6 class="text-danger font-weight-bolder">SUBSCRIBE</h6>
+                <div class="d-sm-flex bg-light subscribe h-100">
+                    <div class="col-lg-3 mr-lg-3 mr-sm-1 col-sm-4 col-12 position-relative">
+                        <img src="assets/img/cover-october-09-16-2020.jpg" class="overlap-imgs"
+                            alt="Subscription image">
+                        <img src="https://d.newsweek.com/en/full/1653518/cover-october-23-2020.jpg?w=170&q=95&f=b35fed654708fe1b577840164dadeacf
+                        " class="imgs position-absolute mr-md-0" alt="Subscription image">
+                    </div>
+                    <div class="ml-sm-0 col-sm-6 col-lg-8 ml-lg-5 my-auto text-center p-2 p-lg-5 text-sm-left">
+                        <h5 class="font-weight-bolder">In-depth Stories You Don't See Elsewhere About Topics You Want
+                            to Read!</h5>
+                        <p class="font-weight-lighter">All Access + Weekly Delivery. <br> Choose A Membership That's
+                            Perfect for You!</p>
+                        <button type="submit" class="btn rounded-0 text-white">SUBSCRIBE
+                            &gt;</button>
+                    </div>
+                </div>
+            </div>
+            <!-- News letter -->
+            <div class="col-sm-12 col-lg-5 mt-5 mt-lg-0">
+                <h6 class="text-danger font-weight-bolder">NEWSLETTER</h6>
+                <div class="col-12 d-md-flex border p-0 h-100">
+                    <div class="col-md-6 col-12 col-sm-12 p-0 news-letter">
+                        <img src="https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5
+                        " alt="Subscription image">
+                    </div>
+                    <div
+                        class="col-12 col-md-6 col-sm-12 text-center text-sm-center pt-sm-4 pt-5 py-lg-5 px-lg-4 text-lg-left">
+                        <h4 class="font-weight-bold">The Starting 5</h4>
+                        <p class="font-weight-light">
+                            See why nearly a quarter of a million subscribers begin their day with the Starting 5.
+                        </p>
+                        <div class="mx-sm-auto news-letter">
+                            <input class="border p-2 float-right mt-lg-4" type="text" placeholder="Email Address">
+                            <button type="submit"
+                                class="btn btn-danger rounded-0 text-white mt-2 w-lg-100 float-right ">SUBSCRIBE
+                                &gt;</button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end of Last section -->
+    </main>
+    <footer class="bg-white mt-0 border-top">
+        <section class="last-section row d-flex justify-content-between px-2 pt-4 mx-1">
+            <h2 class="d-none">Headings</h2>
+            <div class="col-12 col-md-7 d-md-flex d-block align-items-center col-sx-6">
+
+                <a href="#">
+                    <img src="assets/img/logo_footer.png" class="svg" alt="footer logo">
+                </a>
+                <p class="pl-2 pt-4">&copy; 2020 NEWSWEEK DIGITAL LLC</p>
+            </div>
+            <div class="col-md-5 justify-content-md-end row text-dark pt-3 social">
+                <i class="fa fa-facebook-square "></i>
+                <i class="fa fa-twitter "></i>
+                <i class="fa fa-instagram "></i>
+                <i class="fa fa-telegram "></i>
+                <i class="fa fa-linkedin "></i>
+            </div>
+        </section>
+
+        <section class="col-md-12 d-flex col-md-12 flex-column pl-4 pb-5">
+            <h2 class="d-none">Headings</h2>
+            <div class="d-flex border-top pt-2">
+                <span class="display-bold mr-4">Editions:</span>
+                <ul class="footer font-size">
+                    <li><a href="#">U.S. Edition |</a> </li>
+                    <li><a href="#">日本 |</a> </li>
+                    <li><a href="#">Pakistan |</a> </li>
+                    <li><a href="#">Polska |</a> </li>
+                    <li><a href="#">România |</a> </li>
+                </ul>
+            </div>
+
+            <ul class="footer font-size">
+                <li><a href="#">About Us |</a> </li>
+                <li><a href="#">Corrections |</a> </li>
+                <li><a href="#">Contact Us |</a> </li>
+                <li><a href="#">Editorial Guidelines |</a> </li>
+                <li><a href="#">Advertise |</a> </li>
+                <li><a href="#">Copyright |</a></li>
+                <li><a href="#">Terms & Conditions |</a> </li>
+                <li><a href="#">Privacy Policy |</a> </li>
+                <li><a href="#">Cookie Policy |</a> </li>
+                <li><a href="#">Terms of Sale |</a> </li>
+                <li><a href="#">Archive |</a> </li>
+                <li><a href="#">Announcements |</a> </li>
+                <li><a href="#">GDPR Privacy Settings |</a> </li>
+            </ul>
+        </section>
+    </footer>
+</body>
+
+</html>
